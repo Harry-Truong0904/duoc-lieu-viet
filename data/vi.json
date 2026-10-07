@@ -1,0 +1,1500 @@
+{
+    "effects":  [
+                    {
+                        "id":  "kv",
+                        "name":  "Kháng viêm",
+                        "description":  "Cây và hoạt chất được nghiên cứu về khả năng làm giảm phản ứng viêm."
+                    },
+                    {
+                        "id":  "an",
+                        "name":  "An thần / giấc ngủ",
+                        "description":  "Cây dùng dân gian để thư giãn, dễ ngủ; phần lớn bằng chứng còn ở mức tiền lâm sàng."
+                    },
+                    {
+                        "id":  "gan",
+                        "name":  "Hỗ trợ gan mật",
+                        "description":  "Cây được nghiên cứu về bảo vệ tế bào gan hoặc kích thích tiết mật."
+                    },
+                    {
+                        "id":  "td",
+                        "name":  "Tiêu hóa",
+                        "description":  "Cây dùng cho đầy bụng, buồn nôn, rối loạn tiêu hóa hoặc táo bón."
+                    },
+                    {
+                        "id":  "da",
+                        "name":  "Lành vết thương / da",
+                        "description":  "Cây dùng ngoài da hoặc được nghiên cứu về lành vết thương và chăm sóc da."
+                    },
+                    {
+                        "id":  "ho",
+                        "name":  "Hô hấp",
+                        "description":  "Cây dùng cho ho, đau họng và các triệu chứng hô hấp nhẹ."
+                    },
+                    {
+                        "id":  "kk",
+                        "name":  "Kháng khuẩn / kháng vi sinh",
+                        "description":  "Hoạt tính chống vi khuẩn, nấm hoặc ký sinh trùng, thường được chứng minh trong ống nghiệm."
+                    },
+                    {
+                        "id":  "cm",
+                        "name":  "Chuyển hóa (đường huyết, mỡ máu)",
+                        "description":  "Cây được nghiên cứu về ảnh hưởng lên đường huyết hoặc lipid máu."
+                    },
+                    {
+                        "id":  "tm",
+                        "name":  "Tim mạch / mạch máu",
+                        "description":  "Cây được nghiên cứu về huyết áp, mao mạch hoặc tuần hoàn."
+                    },
+                    {
+                        "id":  "lt",
+                        "name":  "Lợi tiểu / tiết niệu",
+                        "description":  "Cây dùng để tăng lượng nước tiểu hoặc hỗ trợ đường tiết niệu."
+                    },
+                    {
+                        "id":  "tl",
+                        "name":  "Bồi bổ / thích nghi",
+                        "description":  "Cây dùng dân gian để bồi bổ, giảm mệt mỏi; bằng chứng lâm sàng còn hạn chế."
+                    },
+                    {
+                        "id":  "ha",
+                        "name":  "Thanh nhiệt / hạ sốt",
+                        "description":  "Cây dùng dân gian trong các chứng nóng sốt, giải nhiệt."
+                    },
+                    {
+                        "id":  "ox",
+                        "name":  "Chống oxy hóa",
+                        "description":  "Cây giàu chất chống oxy hóa; lợi ích cụ thể ở người cần thêm nghiên cứu."
+                    }
+                ],
+    "compounds":  [
+                      {
+                          "id":  "curcumin",
+                          "name":  "Curcumin",
+                          "cls":  "Curcuminoid (polyphenol)",
+                          "mech":  "Ức chế con đường NF-κB và enzyme COX-2 trong mô hình tế bào. Sinh khả dụng đường uống thấp."
+                      },
+                      {
+                          "id":  "phyllanthin",
+                          "name":  "Phyllanthin",
+                          "cls":  "Lignan",
+                          "mech":  "Bảo vệ tế bào gan trước tổn thương do hóa chất trong mô hình động vật."
+                      },
+                      {
+                          "id":  "neferine",
+                          "name":  "Neferine / Liensinine",
+                          "cls":  "Alkaloid (benzylisoquinoline)",
+                          "mech":  "Có tác động lên hệ thần kinh trung ương trong nghiên cứu tiền lâm sàng. Cơ chế chưa rõ."
+                      },
+                      {
+                          "id":  "vitexin",
+                          "name":  "Vitexin",
+                          "cls":  "Flavonoid C-glycoside",
+                          "mech":  "Được cho là điều hòa hệ GABA. Bằng chứng chủ yếu từ loài P. incarnata."
+                      },
+                      {
+                          "id":  "cynarin",
+                          "name":  "Cynarin / acid chlorogenic",
+                          "cls":  "Polyphenol (caffeoylquinic acid)",
+                          "mech":  "Kích thích tiết mật và chống oxy hóa trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "gingerol",
+                          "name":  "Gingerol / Shogaol",
+                          "cls":  "Phenolic",
+                          "mech":  "Tác động lên thụ thể serotonin 5-HT3 và các chất trung gian gây viêm trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "asiaticoside",
+                          "name":  "Asiaticoside / Madecassoside",
+                          "cls":  "Triterpenoid saponin",
+                          "mech":  "Kích thích tổng hợp collagen type I ở nguyên bào sợi nuôi cấy."
+                      },
+                      {
+                          "id":  "allicin",
+                          "name":  "Allicin",
+                          "cls":  "Hợp chất organosulfur",
+                          "mech":  "Phản ứng với nhóm thiol của protein vi sinh vật trong ống nghiệm."
+                      },
+                      {
+                          "id":  "rosmarinic",
+                          "name":  "Acid rosmarinic",
+                          "cls":  "Polyphenol",
+                          "mech":  "Chống oxy hóa và giảm chất trung gian gây viêm trong mô hình tế bào."
+                      },
+                      {
+                          "id":  "houttuynin",
+                          "name":  "Houttuynin",
+                          "cls":  "Hợp chất carbonyl mạch dài",
+                          "mech":  "Có hoạt tính kháng khuẩn trong ống nghiệm; không bền, dễ chuyển hóa."
+                      },
+                      {
+                          "id":  "quercetin",
+                          "name":  "Quercetin",
+                          "cls":  "Flavonoid (flavonol)",
+                          "mech":  "Chống oxy hóa và điều hòa một số enzyme gây viêm trong mô hình tế bào."
+                      },
+                      {
+                          "id":  "citral",
+                          "name":  "Citral",
+                          "cls":  "Monoterpene aldehyde",
+                          "mech":  "Có hoạt tính kháng nấm và kháng khuẩn trong ống nghiệm."
+                      },
+                      {
+                          "id":  "menthol",
+                          "name":  "Menthol",
+                          "cls":  "Monoterpene alcohol",
+                          "mech":  "Kích hoạt kênh cảm nhận lạnh TRPM8 nên tạo cảm giác mát; làm giãn cơ trơn ruột trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "patchoulol",
+                          "name":  "Patchoulol",
+                          "cls":  "Sesquiterpene alcohol",
+                          "mech":  "Hợp chất đặc trưng của tinh dầu hoắc hương; nghiên cứu ở mức tiền lâm sàng."
+                      },
+                      {
+                          "id":  "glycyrrhizin",
+                          "name":  "Glycyrrhizin",
+                          "cls":  "Triterpenoid saponin",
+                          "mech":  "Kháng viêm trong mô hình thí nghiệm; ức chế enzyme 11β-HSD2 nên có thể làm tăng huyết áp."
+                      },
+                      {
+                          "id":  "rutin",
+                          "name":  "Rutin",
+                          "cls":  "Flavonoid glycoside",
+                          "mech":  "Được nghiên cứu về củng cố thành mao mạch và chống oxy hóa."
+                      },
+                      {
+                          "id":  "saponin_dl",
+                          "name":  "Saponin đinh lăng",
+                          "cls":  "Triterpenoid saponin",
+                          "mech":  "Nghiên cứu ở động vật về chống mệt mỏi và cải thiện trí nhớ; cơ chế chưa rõ."
+                      },
+                      {
+                          "id":  "majonoside",
+                          "name":  "Majonoside R2",
+                          "cls":  "Saponin kiểu ocotillol",
+                          "mech":  "Saponin đặc trưng của sâm Ngọc Linh, nghiên cứu về chống stress ở động vật."
+                      },
+                      {
+                          "id":  "luteolin",
+                          "name":  "Luteolin",
+                          "cls":  "Flavonoid (flavone)",
+                          "mech":  "Chống oxy hóa và giảm biểu hiện chất trung gian gây viêm trong mô hình tế bào."
+                      },
+                      {
+                          "id":  "andrographolide",
+                          "name":  "Andrographolide",
+                          "cls":  "Diterpenoid lactone",
+                          "mech":  "Ức chế NF-κB và có hoạt tính kháng virus trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "charantin",
+                          "name":  "Charantin / polypeptide-p",
+                          "cls":  "Saponin steroid và peptide",
+                          "mech":  "Có tác dụng giống insulin trong mô hình động vật."
+                      },
+                      {
+                          "id":  "gymnemic",
+                          "name":  "Acid gymnemic",
+                          "cls":  "Triterpenoid saponin",
+                          "mech":  "Làm giảm cảm nhận vị ngọt và giảm hấp thu glucose ở ruột trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "scopoletin",
+                          "name":  "Scopoletin",
+                          "cls":  "Coumarin",
+                          "mech":  "Kháng viêm và chống oxy hóa trong mô hình tế bào."
+                      },
+                      {
+                          "id":  "tsg",
+                          "name":  "TSG (stilbene glycoside)",
+                          "cls":  "Stilbene glycoside",
+                          "mech":  "Chống oxy hóa trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "anthraquinone",
+                          "name":  "Anthraquinone (emodin, chrysophanol)",
+                          "cls":  "Anthraquinone",
+                          "mech":  "Kích thích nhu động ruột nên có tác dụng nhuận tràng."
+                      },
+                      {
+                          "id":  "solasodine",
+                          "name":  "Solasodine",
+                          "cls":  "Alkaloid steroid",
+                          "mech":  "Được nghiên cứu về bảo vệ gan và độc tính tế bào; có thể độc ở liều cao."
+                      },
+                      {
+                          "id":  "cineole",
+                          "name":  "Cineole",
+                          "cls":  "Monoterpene (tinh dầu)",
+                          "mech":  "Thành phần tinh dầu có hoạt tính kháng viêm nhẹ trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "artemisinin",
+                          "name":  "Artemisinin",
+                          "cls":  "Sesquiterpene lactone (cầu endoperoxide)",
+                          "mech":  "Cầu endoperoxide tạo gốc tự do khi gặp sắt trong ký sinh trùng sốt rét, làm ký sinh trùng chết."
+                      },
+                      {
+                          "id":  "lactucin",
+                          "name":  "Lactucin",
+                          "cls":  "Sesquiterpene lactone",
+                          "mech":  "Chất gây vị đắng; được nghiên cứu về kháng viêm trong mô hình tế bào."
+                      },
+                      {
+                          "id":  "monotropein",
+                          "name":  "Monotropein",
+                          "cls":  "Iridoid glycoside",
+                          "mech":  "Nghiên cứu ở động vật về ảnh hưởng lên xương khớp."
+                      },
+                      {
+                          "id":  "eugenol",
+                          "name":  "Eugenol",
+                          "cls":  "Phenylpropanoid",
+                          "mech":  "Kháng khuẩn và gây tê tại chỗ; kích ứng niêm mạc ở nồng độ cao."
+                      },
+                      {
+                          "id":  "wedelolactone",
+                          "name":  "Wedelolactone",
+                          "cls":  "Coumestan",
+                          "mech":  "Ức chế enzyme IKK nên giảm tín hiệu viêm trong mô hình tế bào."
+                      },
+                      {
+                          "id":  "piperamide",
+                          "name":  "Piperamide",
+                          "cls":  "Alkaloid amide",
+                          "mech":  "Kháng viêm giảm đau trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "hydroxychavicol",
+                          "name":  "Hydroxychavicol",
+                          "cls":  "Phenol",
+                          "mech":  "Kháng khuẩn và kháng nấm trong ống nghiệm."
+                      },
+                      {
+                          "id":  "leonurine",
+                          "name":  "Leonurine",
+                          "cls":  "Alkaloid",
+                          "mech":  "Tác động lên mạch máu và co bóp tử cung trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "acemannan",
+                          "name":  "Acemannan",
+                          "cls":  "Polysaccharide (gel lô hội)",
+                          "mech":  "Được nghiên cứu về kích thích lành vết thương trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "aloin",
+                          "name":  "Aloin",
+                          "cls":  "Anthrone C-glycoside",
+                          "mech":  "Kích thích nhu động ruột nên có tác dụng nhuận tràng mạnh."
+                      },
+                      {
+                          "id":  "cardamonin",
+                          "name":  "Cardamonin",
+                          "cls":  "Chalcone",
+                          "mech":  "Kháng viêm và chống oxy hóa trong mô hình tế bào."
+                      },
+                      {
+                          "id":  "aucubin",
+                          "name":  "Aucubin",
+                          "cls":  "Iridoid glycoside",
+                          "mech":  "Kháng viêm trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "maysin",
+                          "name":  "Maysin",
+                          "cls":  "Flavone C-glycoside",
+                          "mech":  "Flavonoid đặc trưng của râu ngô; tác dụng lợi tiểu cần thêm nghiên cứu."
+                      },
+                      {
+                          "id":  "fcg",
+                          "name":  "Flavonoid C-glycoside (vd. schaftoside)",
+                          "cls":  "Flavonoid C-glycoside",
+                          "mech":  "Được nghiên cứu về tác động lên sỏi tiết niệu trong mô hình động vật."
+                      },
+                      {
+                          "id":  "dhm",
+                          "name":  "Dihydromyricetin",
+                          "cls":  "Flavanonol",
+                          "mech":  "Chống oxy hóa và bảo vệ gan trong mô hình động vật."
+                      },
+                      {
+                          "id":  "lycopene",
+                          "name":  "Lycopene / beta-carotene",
+                          "cls":  "Carotenoid",
+                          "mech":  "Chống oxy hóa; beta-carotene là tiền chất vitamin A."
+                      },
+                      {
+                          "id":  "apigenin",
+                          "name":  "Apigenin",
+                          "cls":  "Flavonoid (flavone)",
+                          "mech":  "Chống oxy hóa và kháng viêm trong mô hình tế bào."
+                      },
+                      {
+                          "id":  "notoginsenoside",
+                          "name":  "Notoginsenoside R1",
+                          "cls":  "Saponin dammarane",
+                          "mech":  "Được nghiên cứu về tác động lên đông máu và mạch máu trong mô hình thí nghiệm."
+                      },
+                      {
+                          "id":  "cinnamaldehyde",
+                          "name":  "Cinnamaldehyde",
+                          "cls":  "Phenylpropanoid aldehyde",
+                          "mech":  "Kháng khuẩn trong ống nghiệm; có thể ảnh hưởng nhẹ đến độ nhạy insulin."
+                      },
+                      {
+                          "id":  "anethole",
+                          "name":  "Anethole",
+                          "cls":  "Phenylpropanoid",
+                          "mech":  "Chất tạo mùi hồi; có hoạt tính kháng khuẩn trong ống nghiệm."
+                      },
+                      {
+                          "id":  "piperine",
+                          "name":  "Piperine",
+                          "cls":  "Alkaloid amide",
+                          "mech":  "Ức chế enzyme chuyển hóa thuốc nên làm tăng hấp thu một số chất."
+                      },
+                      {
+                          "id":  "ala",
+                          "name":  "Acid alpha-linolenic",
+                          "cls":  "Acid béo omega-3",
+                          "mech":  "Tiền chất của EPA và DHA trong cơ thể, tỷ lệ chuyển hóa thấp."
+                      },
+                      {
+                          "id":  "egcg",
+                          "name":  "EGCG",
+                          "cls":  "Catechin",
+                          "mech":  "Chống oxy hóa mạnh trong ống nghiệm; ức chế một số enzyme trong mô hình tế bào."
+                      }
+                  ],
+    "plants":  [
+                   {
+                       "id":  "curcuma-longa",
+                       "name":  "Nghệ vàng",
+                       "sci":  "Curcuma longa",
+                       "alt":  "Nghệ, turmeric",
+                       "family":  "Zingiberaceae (họ Gừng)",
+                       "parts":  "Thân rễ",
+                       "origin":  "Nguồn gốc Nam Á, trồng phổ biến khắp Việt Nam.",
+                       "trad":  "Dùng cho đau dạ dày, làm lành vết thương và hồi phục sau sinh.",
+                       "effects":  [
+                                       "kv",
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "curcumin"
+                                     ],
+                       "art":  "Sắc vàng của nghệ đến từ nhóm curcuminoid, trong đó curcumin là chất được nghiên cứu nhiều nhất. Các thí nghiệm trên tế bào cho thấy curcumin làm giảm tín hiệu viêm, nhưng cơ thể hấp thu curcumin kém nên kết quả trên người chưa thống nhất.",
+                       "safety":  "Liều cao hoặc dùng kéo dài có thể gây khó chịu tiêu hóa. Thận trọng khi có sỏi mật hoặc đang dùng thuốc chống đông.",
+                       "studies":  [
+                                       {
+                                           "t":  "Curcumin: a review of its effects on human health",
+                                           "a":  "Hewlings \u0026 Kalman",
+                                           "y":  2017,
+                                           "j":  "Foods",
+                                           "type":  "Tổng quan",
+                                           "verification":  "unverified"
+                                       }
+                                   ]
+                   },
+                   {
+                       "id":  "phyllanthus-urinaria",
+                       "name":  "Diệp hạ châu",
+                       "sci":  "Phyllanthus urinaria",
+                       "alt":  "Chó đẻ răng cưa",
+                       "family":  "Phyllanthaceae",
+                       "parts":  "Toàn cây",
+                       "origin":  "Mọc hoang ở vùng nhiệt đới châu Á, gặp nhiều ở Việt Nam.",
+                       "trad":  "Dùng để mát gan, lợi tiểu.",
+                       "effects":  [
+                                       "gan"
+                                   ],
+                       "compounds":  [
+                                         "phyllanthin"
+                                     ],
+                       "art":  "Các lignan như phyllanthin là nhóm hoạt chất được nói đến nhiều nhất của chi Phyllanthus. Dữ liệu bảo vệ gan chủ yếu đến từ mô hình động vật, chưa đủ để xem cây là thuốc điều trị bệnh gan.",
+                       "safety":  "Chưa đủ dữ liệu ở phụ nữ có thai và cho con bú. Người có bệnh gan nên hỏi bác sĩ, không tự thay thuốc điều trị.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "nelumbo-nucifera",
+                       "name":  "Tâm sen",
+                       "sci":  "Nelumbo nucifera",
+                       "alt":  "Liên tâm, lotus plumule",
+                       "family":  "Nelumbonaceae",
+                       "parts":  "Mầm hạt sen (tâm sen)",
+                       "origin":  "Trồng ở đầm hồ khắp Việt Nam.",
+                       "trad":  "Pha trà để dễ ngủ, thanh nhiệt.",
+                       "effects":  [
+                                       "an"
+                                   ],
+                       "compounds":  [
+                                         "neferine"
+                                     ],
+                       "art":  "Tâm sen chứa các alkaloid như neferine và liensinine. Những nghiên cứu về tác dụng an thần chủ yếu là tiền lâm sàng, nên vai trò hỗ trợ giấc ngủ ở người vẫn cần thêm thử nghiệm.",
+                       "safety":  "Tính hàn theo y học cổ truyền. Thận trọng khi huyết áp thấp hoặc tiêu hóa lạnh.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "passiflora-foetida",
+                       "name":  "Lạc tiên",
+                       "sci":  "Passiflora foetida",
+                       "alt":  "Chùm bao, nhãn lồng",
+                       "family":  "Passifloraceae",
+                       "parts":  "Toàn cây, phần trên mặt đất",
+                       "origin":  "Nguồn gốc châu Mỹ nhiệt đới, mọc dại ở Việt Nam.",
+                       "trad":  "Nấu nước uống để dễ ngủ, giảm căng thẳng.",
+                       "effects":  [
+                                       "an"
+                                   ],
+                       "compounds":  [
+                                         "vitexin"
+                                     ],
+                       "art":  "Phần lớn bằng chứng lâm sàng về an thần của chi Passiflora đến từ loài P. incarnata. P. foetida là loài khác, dữ liệu ít hơn, nên không nên suy trực tiếp kết quả của loài này sang loài kia.",
+                       "safety":  "Có thể gây buồn ngủ, thận trọng khi dùng cùng thuốc an thần. Tránh dùng khi mang thai.",
+                       "studies":  [
+                                       {
+                                           "t":  "Passiflora incarnata in neuropsychiatric disorders: a systematic review",
+                                           "a":  "Janda et al.",
+                                           "y":  2020,
+                                           "j":  "Nutrients",
+                                           "type":  "Tổng quan hệ thống (loài P. incarnata)",
+                                           "verification":  "unverified"
+                                       }
+                                   ]
+                   },
+                   {
+                       "id":  "cynara-scolymus",
+                       "name":  "Actiso",
+                       "sci":  "Cynara scolymus",
+                       "alt":  "Atisô, artichoke",
+                       "family":  "Asteraceae (họ Cúc)",
+                       "parts":  "Lá, hoa (đầu)",
+                       "origin":  "Nguồn gốc Địa Trung Hải, trồng nhiều ở Đà Lạt và Sa Pa.",
+                       "trad":  "Nấu nước uống để mát gan, lợi mật.",
+                       "effects":  [
+                                       "gan",
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "cynarin"
+                                     ],
+                       "art":  "Lá actiso giàu các hợp chất caffeoylquinic như cynarin và acid chlorogenic. Chúng được nghiên cứu cho tác dụng kích thích tiết mật và hỗ trợ tiêu hóa chất béo.",
+                       "safety":  "Tránh dùng khi tắc mật hoặc sỏi mật. Người dị ứng họ Cúc có thể bị phản ứng.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "zingiber-officinale",
+                       "name":  "Gừng",
+                       "sci":  "Zingiber officinale",
+                       "alt":  "Sinh khương, ginger",
+                       "family":  "Zingiberaceae (họ Gừng)",
+                       "parts":  "Thân rễ",
+                       "origin":  "Nguồn gốc Đông Nam Á, trồng khắp cả nước.",
+                       "trad":  "Dùng dân gian khi cảm lạnh, buồn nôn hoặc đầy bụng.",
+                       "effects":  [
+                                       "kv",
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "gingerol"
+                                     ],
+                       "art":  "Vị cay của gừng đến từ gingerol, chuyển thành shogaol khi phơi khô hoặc nấu. Buồn nôn là chỉ định có nhiều bằng chứng lâm sàng nhất của gừng.",
+                       "safety":  "Liều cao có thể gây ợ nóng. Thận trọng khi dùng cùng thuốc chống đông.",
+                       "studies":  [
+                                       {
+                                           "t":  "Efficacy of ginger for nausea and vomiting in pregnancy",
+                                           "a":  "Viljoen et al.",
+                                           "y":  2014,
+                                           "j":  "Nutrition Journal",
+                                           "type":  "Phân tích gộp",
+                                           "verification":  "unverified"
+                                       }
+                                   ]
+                   },
+                   {
+                       "id":  "centella-asiatica",
+                       "name":  "Rau má",
+                       "sci":  "Centella asiatica",
+                       "alt":  "Tích tuyết thảo, gotu kola",
+                       "family":  "Apiaceae (họ Hoa tán)",
+                       "parts":  "Toàn cây",
+                       "origin":  "Mọc hoang ở vùng ẩm khắp Việt Nam.",
+                       "trad":  "Uống giải nhiệt, đắp ngoài để mau lành vết thương.",
+                       "effects":  [
+                                       "da",
+                                       "kv"
+                                   ],
+                       "compounds":  [
+                                         "asiaticoside"
+                                     ],
+                       "art":  "Rau má chứa các saponin triterpenoid như asiaticoside và madecassoside. Chúng được quan tâm nhiều nhất về khả năng hỗ trợ lành vết thương và chăm sóc da.",
+                       "safety":  "Tính hàn, thận trọng khi mang thai. Có báo cáo hiếm về ảnh hưởng gan khi dùng chiết xuất kéo dài.",
+                       "studies":  [
+                                       {
+                                           "t":  "Centella asiatica in cosmetology",
+                                           "a":  "Bylka et al.",
+                                           "y":  2013,
+                                           "j":  "Postępy Dermatologii i Alergologii",
+                                           "type":  "Tổng quan",
+                                           "verification":  "unverified"
+                                       }
+                                   ]
+                   },
+                   {
+                       "id":  "allium-sativum",
+                       "name":  "Tỏi",
+                       "sci":  "Allium sativum",
+                       "alt":  "Đại toán, garlic",
+                       "family":  "Amaryllidaceae (họ Hành)",
+                       "parts":  "Củ (tép)",
+                       "origin":  "Nguồn gốc Trung Á, trồng khắp Việt Nam.",
+                       "trad":  "Dùng nấu ăn và làm thuốc trị cảm lạnh, đầy bụng.",
+                       "effects":  [
+                                       "kk",
+                                       "tm"
+                                   ],
+                       "compounds":  [
+                                         "allicin"
+                                     ],
+                       "art":  "Allicin hình thành khi tép tỏi bị đập dập, là hợp chất lưu huỳnh tạo mùi đặc trưng và có hoạt tính kháng vi sinh trong ống nghiệm. Tác dụng lên huyết áp và mỡ máu ở người được nghiên cứu nhưng kết quả chưa thống nhất.",
+                       "safety":  "Có thể làm tăng nguy cơ chảy máu; thận trọng khi dùng thuốc chống đông hoặc trước phẫu thuật. Ăn nhiều lúc đói có thể kích ứng dạ dày.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "perilla-frutescens",
+                       "name":  "Tía tô",
+                       "sci":  "Perilla frutescens",
+                       "alt":  "Tô diệp, perilla",
+                       "family":  "Lamiaceae (họ Hoa môi)",
+                       "parts":  "Lá, hạt",
+                       "origin":  "Nguồn gốc Đông Á, trồng làm rau ở Việt Nam.",
+                       "trad":  "Dùng dân gian khi cảm lạnh hoặc ho; lá thường ăn kèm cua cá.",
+                       "effects":  [
+                                       "ho",
+                                       "kv",
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "rosmarinic"
+                                     ],
+                       "art":  "Lá tía tô chứa acid rosmarinic và tinh dầu perillaldehyde. Acid rosmarinic được nghiên cứu về khả năng giảm phản ứng viêm và dị ứng, chủ yếu trong mô hình tế bào và động vật.",
+                       "safety":  "Người dị ứng họ Hoa môi có thể bị phản ứng. Không uống tinh dầu perilla nguyên chất.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "houttuynia-cordata",
+                       "name":  "Diếp cá",
+                       "sci":  "Houttuynia cordata",
+                       "alt":  "Rau giấp cá, fish mint",
+                       "family":  "Saururaceae (họ Lá giấp)",
+                       "parts":  "Toàn cây, lá",
+                       "origin":  "Mọc ở vùng ẩm khắp Việt Nam và Đông Á.",
+                       "trad":  "Ăn sống hoặc giã lấy nước uống; trong dân gian được dùng khi nóng trong, mụn nhọt hoặc trĩ.",
+                       "effects":  [
+                                       "kv",
+                                       "kk",
+                                       "lt"
+                                   ],
+                       "compounds":  [
+                                         "houttuynin",
+                                         "quercetin"
+                                     ],
+                       "art":  "Mùi tanh đặc trưng đến từ hợp chất houttuynin. Cây được nghiên cứu về hoạt tính kháng khuẩn và kháng viêm trong ống nghiệm, dữ liệu trên người còn ít.",
+                       "safety":  "Có báo cáo phản ứng dị ứng với dạng tiêm chiết xuất. Dùng dạng uống lâu dài chưa có đủ dữ liệu an toàn.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "cymbopogon-citratus",
+                       "name":  "Sả",
+                       "sci":  "Cymbopogon citratus",
+                       "alt":  "Lemongrass",
+                       "family":  "Poaceae (họ Lúa)",
+                       "parts":  "Thân, lá",
+                       "origin":  "Nguồn gốc Nam Á, trồng phổ biến ở Việt Nam.",
+                       "trad":  "Nấu nước xông giải cảm, dùng làm gia vị, giúp đỡ đầy hơi.",
+                       "effects":  [
+                                       "kk",
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "citral"
+                                     ],
+                       "art":  "Tinh dầu sả có citral, chất tạo mùi chanh và có hoạt tính kháng nấm, kháng khuẩn trong ống nghiệm.",
+                       "safety":  "Tinh dầu có thể gây kích ứng da nếu bôi nguyên chất. Thận trọng khi mang thai với liều vượt mức thực phẩm.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "mentha-arvensis",
+                       "name":  "Bạc hà",
+                       "sci":  "Mentha arvensis",
+                       "alt":  "Bạc hà Á, field mint",
+                       "family":  "Lamiaceae (họ Hoa môi)",
+                       "parts":  "Lá, phần trên mặt đất",
+                       "origin":  "Trồng phổ biến ở Việt Nam.",
+                       "trad":  "Xông giải cảm, dùng cho đầy bụng, đau đầu.",
+                       "effects":  [
+                                       "td",
+                                       "ho"
+                                   ],
+                       "compounds":  [
+                                         "menthol"
+                                     ],
+                       "art":  "Menthol kích hoạt kênh cảm nhận lạnh TRPM8 nên tạo cảm giác mát. Dầu bạc hà được nghiên cứu về giảm triệu chứng hội chứng ruột kích thích.",
+                       "safety":  "Có thể làm nặng thêm trào ngược dạ dày. Không bôi menthol lên mặt trẻ nhỏ vì nguy cơ co thắt thanh quản.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "pogostemon-cablin",
+                       "name":  "Hoắc hương",
+                       "sci":  "Pogostemon cablin",
+                       "alt":  "Quảng hoắc hương, patchouli",
+                       "family":  "Lamiaceae (họ Hoa môi)",
+                       "parts":  "Phần trên mặt đất",
+                       "origin":  "Nguồn gốc Đông Nam Á, trồng ở Việt Nam.",
+                       "trad":  "Dùng cho đầy bụng, buồn nôn, cảm nắng.",
+                       "effects":  [
+                                       "td",
+                                       "kk"
+                                   ],
+                       "compounds":  [
+                                         "patchoulol"
+                                     ],
+                       "art":  "Tinh dầu chứa patchoulol, sesquiterpene đặc trưng của cây. Các nghiên cứu về tác dụng lên tiêu hóa và kháng vi sinh chủ yếu ở mức tiền lâm sàng.",
+                       "safety":  "Chưa đủ dữ liệu ở phụ nữ mang thai và cho con bú.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "glycyrrhiza-uralensis",
+                       "name":  "Cam thảo",
+                       "sci":  "Glycyrrhiza uralensis",
+                       "alt":  "Cam thảo bắc, licorice",
+                       "family":  "Fabaceae (họ Đậu)",
+                       "parts":  "Rễ, thân rễ",
+                       "origin":  "Nguồn gốc Đông Bắc Á, dược liệu nhập phổ biến ở Việt Nam.",
+                       "trad":  "Dùng để dịu ho, điều hòa vị thuốc và giảm đau dạ dày.",
+                       "effects":  [
+                                       "ho",
+                                       "kv",
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "glycyrrhizin"
+                                     ],
+                       "art":  "Glycyrrhizin ngọt gấp nhiều lần đường và được nghiên cứu về tác dụng kháng viêm. Cũng chính chất này gây ra tác dụng phụ đáng chú ý nhất của cam thảo.",
+                       "safety":  "Dùng liều cao hoặc kéo dài có thể gây tăng huyết áp và hạ kali máu. Tránh dùng khi có bệnh tim, thận hoặc cao huyết áp không kiểm soát.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "styphnolobium-japonicum",
+                       "name":  "Hoa hòe",
+                       "sci":  "Styphnolobium japonicum",
+                       "alt":  "Hòe, Sophora japonica",
+                       "family":  "Fabaceae (họ Đậu)",
+                       "parts":  "Nụ hoa",
+                       "origin":  "Nguồn gốc Đông Á, trồng ở miền Bắc Việt Nam.",
+                       "trad":  "Nụ hoa sao vàng hãm trà; theo kinh nghiệm dân gian, dùng khi chảy máu hoặc huyết áp cao.",
+                       "effects":  [
+                                       "tm"
+                                   ],
+                       "compounds":  [
+                                         "rutin",
+                                         "quercetin"
+                                     ],
+                       "art":  "Nụ hòe là nguồn rutin tự nhiên nổi tiếng. Rutin được nghiên cứu về khả năng củng cố thành mao mạch, nhưng bằng chứng trên người còn hạn chế.",
+                       "safety":  "Có thể tương tác với thuốc chống đông. Người có huyết áp thấp nên thận trọng.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "polyscias-fruticosa",
+                       "name":  "Đinh lăng",
+                       "sci":  "Polyscias fruticosa",
+                       "alt":  "Nam dương sâm",
+                       "family":  "Araliaceae (họ Nhân sâm)",
+                       "parts":  "Rễ, lá",
+                       "origin":  "Nguồn gốc quần đảo Thái Bình Dương, trồng khắp Việt Nam.",
+                       "trad":  "Dùng bồi bổ, giảm mệt mỏi, lợi sữa.",
+                       "effects":  [
+                                       "tl"
+                                   ],
+                       "compounds":  [
+                                         "saponin_dl"
+                                     ],
+                       "art":  "Rễ đinh lăng chứa saponin triterpenoid, nhóm chất cũng gặp ở họ Nhân sâm. Các nghiên cứu về chống mệt mỏi và cải thiện trí nhớ chủ yếu ở động vật.",
+                       "safety":  "Liều cao có thể gây khó chịu tiêu hóa. Chưa đủ dữ liệu ở phụ nữ mang thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "panax-vietnamensis",
+                       "name":  "Sâm Ngọc Linh",
+                       "sci":  "Panax vietnamensis",
+                       "alt":  "Sâm Việt Nam",
+                       "family":  "Araliaceae (họ Nhân sâm)",
+                       "parts":  "Rễ củ",
+                       "origin":  "Đặc hữu vùng núi Ngọc Linh (Kon Tum, Quảng Nam), được bảo tồn và trồng.",
+                       "trad":  "Người Xê Đăng dùng để bồi bổ sức khỏe.",
+                       "effects":  [
+                                       "tl"
+                                   ],
+                       "compounds":  [
+                                         "majonoside"
+                                     ],
+                       "art":  "Sâm Ngọc Linh nổi bật vì chứa saponin kiểu ocotillol như majonoside R2, hiếm gặp ở các loài sâm khác. Dữ liệu dược lý chủ yếu từ nghiên cứu tiền lâm sàng.",
+                       "safety":  "Giá cao nên dễ gặp hàng giả. Thận trọng khi dùng cùng thuốc chống đông hoặc thuốc tiểu đường.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "lonicera-japonica",
+                       "name":  "Kim ngân hoa",
+                       "sci":  "Lonicera japonica",
+                       "alt":  "Nhẫn đông",
+                       "family":  "Caprifoliaceae (họ Kim ngân)",
+                       "parts":  "Nụ hoa, cành lá",
+                       "origin":  "Nguồn gốc Đông Á, mọc và trồng ở miền núi phía Bắc.",
+                       "trad":  "Theo kinh nghiệm dân gian, dùng khi nóng trong, mụn nhọt hoặc sốt.",
+                       "effects":  [
+                                       "kv",
+                                       "kk",
+                                       "ha"
+                                   ],
+                       "compounds":  [
+                                         "cynarin",
+                                         "luteolin"
+                                     ],
+                       "art":  "Hoa chứa acid chlorogenic và luteolin. Cây được dùng lâu đời trong y học cổ truyền Đông Á cho các chứng nhiệt, và có nghiên cứu về kháng viêm, kháng vi sinh trong ống nghiệm.",
+                       "safety":  "Người tỳ vị hư hàn (dễ tiêu chảy, lạnh bụng) nên thận trọng theo y học cổ truyền.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "andrographis-paniculata",
+                       "name":  "Xuyên tâm liên",
+                       "sci":  "Andrographis paniculata",
+                       "alt":  "Khổ đảm thảo, king of bitters",
+                       "family":  "Acanthaceae (họ Ô rô)",
+                       "parts":  "Phần trên mặt đất",
+                       "origin":  "Nguồn gốc Nam Á, trồng ở Việt Nam.",
+                       "trad":  "Dùng cho cảm sốt, viêm họng, tiêu chảy.",
+                       "effects":  [
+                                       "kv",
+                                       "kk",
+                                       "ho",
+                                       "ha"
+                                   ],
+                       "compounds":  [
+                                         "andrographolide"
+                                     ],
+                       "art":  "Andrographolide là diterpenoid gây vị đắng đặc trưng. Đây là một trong số ít dược liệu có thử nghiệm lâm sàng về nhiễm trùng hô hấp trên, nhưng chất lượng nghiên cứu còn khác nhau.",
+                       "safety":  "Có thể gây dị ứng, phản ứng nặng hiếm gặp với dạng tiêm. Thận trọng khi mang thai. Ngưng ngay nếu nổi mẩn hoặc khó thở.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "momordica-charantia",
+                       "name":  "Mướp đắng",
+                       "sci":  "Momordica charantia",
+                       "alt":  "Khổ qua, bitter melon",
+                       "family":  "Cucurbitaceae (họ Bầu bí)",
+                       "parts":  "Quả",
+                       "origin":  "Trồng phổ biến ở Việt Nam.",
+                       "trad":  "Ăn để mát, hỗ trợ người tiểu đường theo kinh nghiệm dân gian.",
+                       "effects":  [
+                                       "cm"
+                                   ],
+                       "compounds":  [
+                                         "charantin"
+                                     ],
+                       "art":  "Quả chứa các hợp chất như charantin và polypeptide-p có tác dụng giống insulin trong mô hình động vật. Thử nghiệm ở người cho kết quả không đồng nhất.",
+                       "safety":  "Có thể làm giảm đường huyết quá mức khi dùng cùng thuốc tiểu đường. Hạt và chiết xuất cô đặc không nên dùng khi mang thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "gymnema-sylvestre",
+                       "name":  "Dây thìa canh",
+                       "sci":  "Gymnema sylvestre",
+                       "alt":  "Gurmar",
+                       "family":  "Apocynaceae (họ Trúc đào)",
+                       "parts":  "Lá",
+                       "origin":  "Mọc ở rừng nhiệt đới châu Á, có ở Việt Nam.",
+                       "trad":  "Y học Ấn Độ dùng để hỗ trợ kiểm soát đường huyết.",
+                       "effects":  [
+                                       "cm"
+                                   ],
+                       "compounds":  [
+                                         "gymnemic"
+                                     ],
+                       "art":  "Acid gymnemic làm giảm cảm nhận vị ngọt trên lưỡi và giảm hấp thu glucose ở ruột trong mô hình thí nghiệm. Có vài thử nghiệm lâm sàng nhỏ.",
+                       "safety":  "Có thể làm hạ đường huyết khi dùng cùng thuốc tiểu đường.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "morinda-citrifolia",
+                       "name":  "Nhàu",
+                       "sci":  "Morinda citrifolia",
+                       "alt":  "Noni",
+                       "family":  "Rubiaceae (họ Cà phê)",
+                       "parts":  "Quả, lá, rễ",
+                       "origin":  "Nguồn gốc Đông Nam Á và Polynesia, mọc nhiều ở Việt Nam.",
+                       "trad":  "Dùng quả và rễ hỗ trợ đau nhức xương khớp, hạ huyết áp.",
+                       "effects":  [
+                                       "kv"
+                                   ],
+                       "compounds":  [
+                                         "scopoletin"
+                                     ],
+                       "art":  "Nhàu chứa scopoletin, một coumarin được nghiên cứu về khả năng kháng viêm. Nước ép nhàu bán rộng rãi nhưng bằng chứng trên người còn ít.",
+                       "safety":  "Nước ép nhàu giàu kali. Có báo cáo hiếm về tổn thương gan; thận trọng khi có bệnh thận hoặc bệnh gan.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "reynoutria-multiflora",
+                       "name":  "Hà thủ ô đỏ",
+                       "sci":  "Reynoutria multiflora",
+                       "alt":  "Hà thủ ô, Fallopia multiflora",
+                       "family":  "Polygonaceae (họ Rau răm)",
+                       "parts":  "Rễ củ",
+                       "origin":  "Mọc ở vùng núi phía Bắc Việt Nam và Trung Quốc.",
+                       "trad":  "Dùng bồi bổ, dưỡng tóc.",
+                       "effects":  [
+                                       "tl",
+                                       "ox"
+                                   ],
+                       "compounds":  [
+                                         "tsg",
+                                         "anthraquinone"
+                                     ],
+                       "art":  "Rễ chứa stilbene glycoside (TSG) và anthraquinone. TSG được nghiên cứu về chống oxy hóa, nhưng cây đã có nhiều báo cáo tổn thương gan.",
+                       "safety":  "Có nhiều báo cáo tổn thương gan liên quan đến hà thủ ô, đặc biệt dạng chưa chế biến. Không tự ý dùng khi có bệnh gan; cần theo dõi của bác sĩ.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "senna-tora",
+                       "name":  "Thảo quyết minh",
+                       "sci":  "Senna tora",
+                       "alt":  "Muồng ngủ, Cassia tora",
+                       "family":  "Fabaceae (họ Đậu)",
+                       "parts":  "Hạt",
+                       "origin":  "Mọc hoang khắp Việt Nam.",
+                       "trad":  "Sao hãm trà uống để nhuận tràng, mát gan.",
+                       "effects":  [
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "anthraquinone"
+                                     ],
+                       "art":  "Hạt chứa anthraquinone như emodin và chrysophanol, nhóm chất kích thích nhu động ruột, giải thích tác dụng nhuận tràng.",
+                       "safety":  "Dùng lâu ngày có thể gây phụ thuộc thuốc nhuận tràng và mất kali. Không dùng khi mang thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "solanum-procumbens",
+                       "name":  "Cà gai leo",
+                       "sci":  "Solanum procumbens",
+                       "alt":  "Cà gai dại",
+                       "family":  "Solanaceae (họ Cà)",
+                       "parts":  "Toàn cây",
+                       "origin":  "Mọc hoang ở miền Bắc và miền Trung Việt Nam.",
+                       "trad":  "Dân gian dùng để mát gan, giải độc.",
+                       "effects":  [
+                                       "gan"
+                                   ],
+                       "compounds":  [
+                                         "solasodine"
+                                     ],
+                       "art":  "Cây được nghiên cứu ở Việt Nam về hỗ trợ bảo vệ gan; hoạt chất có nhóm alkaloid steroid như solasodine. Bằng chứng lâm sàng chất lượng cao còn thiếu.",
+                       "safety":  "Alkaloid steroid có thể độc ở liều cao. Không tự thay thuốc điều trị bệnh gan.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "artemisia-vulgaris",
+                       "name":  "Ngải cứu",
+                       "sci":  "Artemisia vulgaris",
+                       "alt":  "Ngải diệp, mugwort",
+                       "family":  "Asteraceae (họ Cúc)",
+                       "parts":  "Lá, ngọn",
+                       "origin":  "Mọc và trồng khắp Việt Nam.",
+                       "trad":  "Dùng nấu ăn, sắc uống điều hòa kinh nguyệt, hơ ngải cứu.",
+                       "effects":  [
+                                       "kv",
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "cineole"
+                                     ],
+                       "art":  "Cây chứa tinh dầu (cineole, thujone) và flavonoid. Nghiên cứu về tác dụng kháng viêm và hỗ trợ tiêu hóa còn ở mức tiền lâm sàng.",
+                       "safety":  "Không dùng khi mang thai vì có thể kích thích tử cung. Thujone có độc tính thần kinh ở liều cao. Người dị ứng họ Cúc có thể phản ứng.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "artemisia-annua",
+                       "name":  "Thanh hao hoa vàng",
+                       "sci":  "Artemisia annua",
+                       "alt":  "Thanh hao, sweet wormwood",
+                       "family":  "Asteraceae (họ Cúc)",
+                       "parts":  "Phần trên mặt đất",
+                       "origin":  "Mọc hoang ở miền Bắc Việt Nam, trồng để chiết xuất artemisinin.",
+                       "trad":  "Theo kinh nghiệm dân gian, dùng khi sốt; cũng được nhắc đến trong các ghi chép về sốt rét.",
+                       "effects":  [
+                                       "kk",
+                                       "ha"
+                                   ],
+                       "compounds":  [
+                                         "artemisinin"
+                                     ],
+                       "art":  "Artemisinin, tách từ cây này, là nền tảng của thuốc điều trị sốt rét hiện đại và đem lại giải Nobel Y học 2015 cho Tu Youyou. Đây là ví dụ rõ nhất về một hoạt chất từ dược liệu được chứng minh lâm sàng.",
+                       "safety":  "Không dùng trà thanh hao đơn thuần để điều trị sốt rét. Artemisinin dạng thuốc phải dùng theo phác đồ y tế.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "lactuca-indica",
+                       "name":  "Bồ công anh",
+                       "sci":  "Lactuca indica",
+                       "alt":  "Diếp dại, Indian lettuce",
+                       "family":  "Asteraceae (họ Cúc)",
+                       "parts":  "Lá, toàn cây",
+                       "origin":  "Mọc hoang khắp Việt Nam.",
+                       "trad":  "Dùng đắp mụn nhọt, sưng vú, giải độc.",
+                       "effects":  [
+                                       "kv",
+                                       "kk"
+                                   ],
+                       "compounds":  [
+                                         "lactucin",
+                                         "luteolin"
+                                     ],
+                       "art":  "Bồ công anh Việt Nam (Lactuca indica) khác với bồ công anh châu Âu (Taraxacum). Cây chứa flavonoid và sesquiterpene lactone, được nghiên cứu về kháng viêm và kháng khuẩn trong ống nghiệm.",
+                       "safety":  "Người dị ứng họ Cúc có thể phản ứng. Chưa đủ dữ liệu ở phụ nữ mang thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "morinda-officinalis",
+                       "name":  "Ba kích",
+                       "sci":  "Morinda officinalis",
+                       "alt":  "Ba kích thiên",
+                       "family":  "Rubiaceae (họ Cà phê)",
+                       "parts":  "Rễ",
+                       "origin":  "Mọc ở vùng núi phía Bắc Việt Nam và Nam Trung Quốc.",
+                       "trad":  "Ngâm rượu bồi bổ, dùng cho đau lưng mỏi gối.",
+                       "effects":  [
+                                       "tl"
+                                   ],
+                       "compounds":  [
+                                         "monotropein",
+                                         "anthraquinone"
+                                     ],
+                       "art":  "Rễ chứa iridoid như monotropein và anthraquinone. Các nghiên cứu về xương khớp và thích nghi stress chủ yếu ở động vật.",
+                       "safety":  "Chưa đủ dữ liệu an toàn dài hạn ở người. Tránh dùng khi mang thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "ocimum-gratissimum",
+                       "name":  "Hương nhu",
+                       "sci":  "Ocimum gratissimum",
+                       "alt":  "Hương nhu trắng, clove basil",
+                       "family":  "Lamiaceae (họ Hoa môi)",
+                       "parts":  "Lá, ngọn",
+                       "origin":  "Mọc và trồng ở Việt Nam.",
+                       "trad":  "Dùng nấu nước gội đầu, xông giải cảm.",
+                       "effects":  [
+                                       "kk",
+                                       "ho"
+                                   ],
+                       "compounds":  [
+                                         "eugenol"
+                                     ],
+                       "art":  "Tinh dầu chứa eugenol, có hoạt tính kháng khuẩn và kháng nấm trong ống nghiệm.",
+                       "safety":  "Eugenol nguyên chất có thể gây kích ứng niêm mạc và da. Thận trọng khi mang thai với tinh dầu.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "sphagneticola-calendulacea",
+                       "name":  "Sài đất",
+                       "sci":  "Sphagneticola calendulacea",
+                       "alt":  "Wedelia, cúc nhám",
+                       "family":  "Asteraceae (họ Cúc)",
+                       "parts":  "Toàn cây",
+                       "origin":  "Mọc hoang ở vùng ẩm Việt Nam.",
+                       "trad":  "Nấu nước uống hoặc tắm cho trẻ bị rôm sảy, mụn nhọt.",
+                       "effects":  [
+                                       "kv",
+                                       "da"
+                                   ],
+                       "compounds":  [
+                                         "wedelolactone",
+                                         "luteolin"
+                                     ],
+                       "art":  "Cây chứa wedelolactone và luteolin, hai chất được nghiên cứu về kháng viêm. Cây thường dùng trong dân gian cho các bệnh viêm da nhẹ.",
+                       "safety":  "Người dị ứng họ Cúc có thể phản ứng. Không dùng thay điều trị y tế khi nhiễm trùng da nặng.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "eclipta-prostrata",
+                       "name":  "Cỏ mực",
+                       "sci":  "Eclipta prostrata",
+                       "alt":  "Nhọ nồi",
+                       "family":  "Asteraceae (họ Cúc)",
+                       "parts":  "Toàn cây",
+                       "origin":  "Mọc hoang ven ruộng, bờ mương khắp Việt Nam.",
+                       "trad":  "Dùng dân gian khi chảy máu; cây cũng được dùng theo y học cổ truyền cho gan và tóc.",
+                       "effects":  [
+                                       "gan",
+                                       "da"
+                                   ],
+                       "compounds":  [
+                                         "wedelolactone"
+                                     ],
+                       "art":  "Wedelolactone là coumestan nổi bật của cỏ mực, được nghiên cứu về bảo vệ gan và kháng viêm trong mô hình động vật.",
+                       "safety":  "Dữ liệu an toàn ở người còn ít. Thận trọng khi mang thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "piper-lolot",
+                       "name":  "Lá lốt",
+                       "sci":  "Piper lolot",
+                       "alt":  "Lốt",
+                       "family":  "Piperaceae (họ Hồ tiêu)",
+                       "parts":  "Lá",
+                       "origin":  "Mọc và trồng ở vùng ẩm Đông Nam Á, phổ biến ở Việt Nam.",
+                       "trad":  "Ăn kèm thịt; dùng dân gian khi đau nhức xương khớp và tê chân.",
+                       "effects":  [
+                                       "kv",
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "piperamide"
+                                     ],
+                       "art":  "Lá chứa các alkaloid amide (piperamide) và tinh dầu. Nghiên cứu về kháng viêm giảm đau chủ yếu ở mô hình thí nghiệm.",
+                       "safety":  "Chưa đủ dữ liệu ở phụ nữ có thai và với chiết xuất liều cao.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "piper-betle",
+                       "name":  "Trầu không",
+                       "sci":  "Piper betle",
+                       "alt":  "Trầu",
+                       "family":  "Piperaceae (họ Hồ tiêu)",
+                       "parts":  "Lá",
+                       "origin":  "Trồng phổ biến ở Việt Nam.",
+                       "trad":  "Nhai trầu, nấu nước rửa vết thương, súc miệng.",
+                       "effects":  [
+                                       "kk",
+                                       "da"
+                                   ],
+                       "compounds":  [
+                                         "hydroxychavicol"
+                                     ],
+                       "art":  "Hydroxychavicol là phenol chính của lá trầu và có hoạt tính kháng khuẩn, kháng nấm trong ống nghiệm.",
+                       "safety":  "Nhai trầu kèm cau và vôi liên quan đến nguy cơ ung thư khoang miệng theo phân loại của IARC.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "leonurus-japonicus",
+                       "name":  "Ích mẫu",
+                       "sci":  "Leonurus japonicus",
+                       "alt":  "Sung úy, motherwort",
+                       "family":  "Lamiaceae (họ Hoa môi)",
+                       "parts":  "Phần trên mặt đất",
+                       "origin":  "Mọc hoang khắp Việt Nam.",
+                       "trad":  "Dùng điều hòa kinh nguyệt, hỗ trợ sau sinh.",
+                       "effects":  [
+                                       "tm"
+                                   ],
+                       "compounds":  [
+                                         "leonurine"
+                                     ],
+                       "art":  "Leonurine là alkaloid đặc trưng của cây, được nghiên cứu về tác dụng lên mạch máu và co bóp tử cung trong mô hình thí nghiệm.",
+                       "safety":  "Không dùng khi đang mang thai vì có thể kích thích co bóp tử cung.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "aloe-vera",
+                       "name":  "Lô hội",
+                       "sci":  "Aloe vera",
+                       "alt":  "Nha đam",
+                       "family":  "Asphodelaceae",
+                       "parts":  "Gel lá, nhựa lá",
+                       "origin":  "Nguồn gốc bán đảo Ả Rập, trồng phổ biến ở Việt Nam.",
+                       "trad":  "Bôi gel lên vết bỏng nhẹ, uống nhựa để nhuận tràng.",
+                       "effects":  [
+                                       "da",
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "acemannan",
+                                         "aloin"
+                                     ],
+                       "art":  "Gel trong lá (acemannan) và nhựa vàng sát vỏ (aloin) là hai phần khác nhau, dùng cho mục đích khác nhau. Gel dùng ngoài da cho bỏng nhẹ, còn nhựa có tác dụng nhuận tràng.",
+                       "safety":  "Nhựa vàng chứa aloin gây tiêu chảy, không dùng khi mang thai. Không uống gel chưa loại nhựa.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "cleistocalyx-operculatus",
+                       "name":  "Vối",
+                       "sci":  "Cleistocalyx operculatus",
+                       "alt":  "Cây vối, vối nụ",
+                       "family":  "Myrtaceae (họ Sim)",
+                       "parts":  "Nụ, lá",
+                       "origin":  "Trồng ở Việt Nam, phổ biến ở miền Bắc.",
+                       "trad":  "Nấu nước uống giải khát, thanh nhiệt, hỗ trợ tiêu hóa.",
+                       "effects":  [
+                                       "cm",
+                                       "ha"
+                                   ],
+                       "compounds":  [
+                                         "cardamonin"
+                                     ],
+                       "art":  "Nụ vối chứa các chalcone như cardamonin. Có nghiên cứu ban đầu về mỡ máu và đường huyết, chủ yếu ở động vật.",
+                       "safety":  "Dữ liệu an toàn dài hạn còn ít. Thận trọng khi dùng cùng thuốc hạ đường huyết.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "plantago-major",
+                       "name":  "Mã đề",
+                       "sci":  "Plantago major",
+                       "alt":  "Xa tiền thảo, plantain",
+                       "family":  "Plantaginaceae (họ Mã đề)",
+                       "parts":  "Lá, hạt",
+                       "origin":  "Mọc hoang khắp Việt Nam.",
+                       "trad":  "Lợi tiểu, dịu ho, đắp vết thương.",
+                       "effects":  [
+                                       "ho",
+                                       "lt",
+                                       "kv"
+                                   ],
+                       "compounds":  [
+                                         "aucubin"
+                                     ],
+                       "art":  "Lá chứa aucubin và plantamajoside, được nghiên cứu về kháng viêm. Cần phân biệt mã đề (Plantago major) với vỏ hạt psyllium (Plantago ovata) dùng làm thuốc nhuận tràng.",
+                       "safety":  "Chưa đủ dữ liệu ở phụ nữ có thai. Người dị ứng phấn hoa cỏ có thể phản ứng.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "zea-mays-silk",
+                       "name":  "Râu ngô",
+                       "sci":  "Zea mays (râu bắp)",
+                       "alt":  "Ngọc mễ tu, corn silk",
+                       "family":  "Poaceae (họ Lúa)",
+                       "parts":  "Râu (vòi nhụy)",
+                       "origin":  "Phụ phẩm từ ngô trồng khắp Việt Nam.",
+                       "trad":  "Nấu nước uống lợi tiểu, hỗ trợ sỏi tiết niệu.",
+                       "effects":  [
+                                       "lt"
+                                   ],
+                       "compounds":  [
+                                         "maysin"
+                                     ],
+                       "art":  "Râu ngô chứa flavonoid như maysin. Tác dụng lợi tiểu được dùng nhiều trong dân gian nhưng dữ liệu lâm sàng còn rất hạn chế.",
+                       "safety":  "Có thể làm giảm kali máu khi dùng dài ngày cùng thuốc lợi tiểu. Thận trọng khi dùng thuốc hạ đường huyết hoặc hạ huyết áp.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "desmodium-styracifolium",
+                       "name":  "Kim tiền thảo",
+                       "sci":  "Desmodium styracifolium",
+                       "alt":  "Đồng tiền lông",
+                       "family":  "Fabaceae (họ Đậu)",
+                       "parts":  "Phần trên mặt đất",
+                       "origin":  "Mọc ở vùng đồi núi Việt Nam và Nam Trung Quốc.",
+                       "trad":  "Dùng cho sỏi thận, tiểu buốt.",
+                       "effects":  [
+                                       "lt"
+                                   ],
+                       "compounds":  [
+                                         "fcg"
+                                     ],
+                       "art":  "Cây chứa flavonoid C-glycoside và được đưa vào nhiều chế phẩm hỗ trợ sỏi tiết niệu. Có nghiên cứu lâm sàng nhưng quy mô nhỏ.",
+                       "safety":  "Không tự dùng khi đau quặn thận hoặc tiểu ra máu; cần đi khám. Thận trọng khi mang thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "ampelopsis-cantoniensis",
+                       "name":  "Chè dây",
+                       "sci":  "Ampelopsis cantoniensis",
+                       "alt":  "Chè dây, Ampelopsis grossedentata",
+                       "family":  "Vitaceae (họ Nho)",
+                       "parts":  "Lá, ngọn",
+                       "origin":  "Mọc ở vùng núi phía Bắc Việt Nam và Nam Trung Quốc.",
+                       "trad":  "Nấu nước uống cho dạ dày, thanh nhiệt.",
+                       "effects":  [
+                                       "td",
+                                       "gan",
+                                       "ox"
+                                   ],
+                       "compounds":  [
+                                         "dhm"
+                                     ],
+                       "art":  "Lá chè dây giàu dihydromyricetin, được nghiên cứu về chống oxy hóa và bảo vệ gan. Dữ liệu ở người còn ít.",
+                       "safety":  "Chưa đủ dữ liệu ở phụ nữ có thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "momordica-cochinchinensis",
+                       "name":  "Gấc",
+                       "sci":  "Momordica cochinchinensis",
+                       "alt":  "Mộc miết",
+                       "family":  "Cucurbitaceae (họ Bầu bí)",
+                       "parts":  "Màng hạt (áo hạt), hạt",
+                       "origin":  "Trồng ở Việt Nam và Đông Nam Á.",
+                       "trad":  "Nấu xôi gấc, dùng bổ mắt.",
+                       "effects":  [
+                                       "ox"
+                                   ],
+                       "compounds":  [
+                                         "lycopene"
+                                     ],
+                       "art":  "Màng hạt gấc thuộc loại giàu lycopene và beta-carotene nhất trong các thực phẩm thực vật. Đây là carotenoid chống oxy hóa; lợi ích sức khỏe cụ thể ở người cần thêm nghiên cứu.",
+                       "safety":  "Hạt gấc (mộc miết tử) dùng trong y học cổ truyền có độc, không tự ăn.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "chrysanthemum-morifolium",
+                       "name":  "Cúc hoa",
+                       "sci":  "Chrysanthemum morifolium",
+                       "alt":  "Hoa cúc vàng",
+                       "family":  "Asteraceae (họ Cúc)",
+                       "parts":  "Hoa",
+                       "origin":  "Nguồn gốc Đông Á, trồng ở Việt Nam.",
+                       "trad":  "Hãm trà thanh nhiệt, dịu mắt, giảm đau đầu.",
+                       "effects":  [
+                                       "ha",
+                                       "kv"
+                                   ],
+                       "compounds":  [
+                                         "luteolin",
+                                         "apigenin"
+                                     ],
+                       "art":  "Hoa chứa luteolin và apigenin, hai flavone được nghiên cứu về chống oxy hóa và kháng viêm.",
+                       "safety":  "Người dị ứng họ Cúc có thể phản ứng.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "panax-notoginseng",
+                       "name":  "Tam thất",
+                       "sci":  "Panax notoginseng",
+                       "alt":  "Sâm tam thất",
+                       "family":  "Araliaceae (họ Nhân sâm)",
+                       "parts":  "Củ, hoa",
+                       "origin":  "Nguồn gốc Vân Nam, trồng ở vùng núi cao phía Bắc Việt Nam.",
+                       "trad":  "Dùng dân gian khi chảy máu; cũng được dùng để bồi bổ sau chấn thương và sinh nở.",
+                       "effects":  [
+                                       "tm",
+                                       "da"
+                                   ],
+                       "compounds":  [
+                                         "notoginsenoside"
+                                     ],
+                       "art":  "Tam thất chứa các saponin dammarane như notoginsenoside R1. Cây được dùng lâu đời trong y học cổ truyền cho chảy máu và bầm tím; có nghiên cứu về tim mạch nhưng chất lượng chưa đồng đều.",
+                       "safety":  "Có thể tương tác với thuốc chống đông. Thận trọng khi mang thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "cinnamomum-cassia",
+                       "name":  "Quế",
+                       "sci":  "Cinnamomum cassia",
+                       "alt":  "Quế bì",
+                       "family":  "Lauraceae (họ Long não)",
+                       "parts":  "Vỏ thân",
+                       "origin":  "Trồng ở nhiều tỉnh miền núi Việt Nam.",
+                       "trad":  "Dùng làm gia vị, làm ấm bụng, giảm đầy hơi.",
+                       "effects":  [
+                                       "cm",
+                                       "td",
+                                       "kk"
+                                   ],
+                       "compounds":  [
+                                         "cinnamaldehyde"
+                                     ],
+                       "art":  "Cinnamaldehyde tạo mùi vị đặc trưng của quế và có hoạt tính kháng khuẩn trong ống nghiệm. Vài thử nghiệm nhỏ cho thấy quế có thể ảnh hưởng nhẹ đến đường huyết, kết quả chưa thống nhất.",
+                       "safety":  "Quế cassia chứa coumarin; dùng liều cao lâu dài có thể ảnh hưởng gan.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "illicium-verum",
+                       "name":  "Hồi",
+                       "sci":  "Illicium verum",
+                       "alt":  "Đại hồi, star anise",
+                       "family":  "Schisandraceae (họ Ngũ vị tử)",
+                       "parts":  "Quả",
+                       "origin":  "Trồng chủ yếu ở các tỉnh biên giới phía Bắc Việt Nam.",
+                       "trad":  "Gia vị; dùng dân gian khi đầy bụng hoặc ho.",
+                       "effects":  [
+                                       "td",
+                                       "ho"
+                                   ],
+                       "compounds":  [
+                                         "anethole"
+                                     ],
+                       "art":  "Quả hồi chứa nhiều anethole tạo mùi, và là nguyên liệu tách acid shikimic dùng để sản xuất thuốc kháng virus cúm oseltamivir.",
+                       "safety":  "Không nhầm hồi với hồi Nhật (Illicium anisatum) có độc thần kinh. Không dùng trà hồi cho trẻ nhỏ.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "piper-nigrum",
+                       "name":  "Tiêu",
+                       "sci":  "Piper nigrum",
+                       "alt":  "Hồ tiêu, black pepper",
+                       "family":  "Piperaceae (họ Hồ tiêu)",
+                       "parts":  "Quả",
+                       "origin":  "Trồng nhiều ở Tây Nguyên và Đông Nam Bộ.",
+                       "trad":  "Gia vị, làm ấm bụng, dịu ho.",
+                       "effects":  [
+                                       "td"
+                                   ],
+                       "compounds":  [
+                                         "piperine"
+                                     ],
+                       "art":  "Piperine tạo vị cay và được biết có khả năng tăng hấp thu một số chất khác, ví dụ curcumin, bằng cách ức chế enzyme chuyển hóa thuốc.",
+                       "safety":  "Piperine có thể làm tăng nồng độ một số thuốc trong máu. Thận trọng khi dùng thuốc có khoảng liều an toàn hẹp.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "portulaca-oleracea",
+                       "name":  "Rau sam",
+                       "sci":  "Portulaca oleracea",
+                       "alt":  "Mã xỉ hiện",
+                       "family":  "Portulacaceae (họ Rau sam)",
+                       "parts":  "Toàn cây",
+                       "origin":  "Mọc hoang khắp Việt Nam.",
+                       "trad":  "Dùng như rau; theo kinh nghiệm dân gian, dùng khi có chứng lỵ, mụn nhọt hoặc nóng trong.",
+                       "effects":  [
+                                       "kv"
+                                   ],
+                       "compounds":  [
+                                         "ala"
+                                     ],
+                       "art":  "Rau sam là một trong số rau lá xanh giàu acid alpha-linolenic (omega-3) hơn nhiều loại rau khác, và có flavonoid. Nghiên cứu kháng viêm còn ở mô hình tế bào và động vật.",
+                       "safety":  "Chứa oxalat, thận trọng khi có sỏi thận oxalat. Thận trọng khi mang thai.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "camellia-sinensis",
+                       "name":  "Trà xanh",
+                       "sci":  "Camellia sinensis",
+                       "alt":  "Chè xanh, green tea",
+                       "family":  "Theaceae (họ Chè)",
+                       "parts":  "Lá, búp",
+                       "origin":  "Trồng nhiều ở Thái Nguyên, Lâm Đồng, Hà Giang.",
+                       "trad":  "Hãm uống hằng ngày.",
+                       "effects":  [
+                                       "ox",
+                                       "tm"
+                                   ],
+                       "compounds":  [
+                                         "egcg"
+                                     ],
+                       "art":  "EGCG là catechin chủ yếu của trà xanh, được nghiên cứu rộng rãi về chống oxy hóa. Kết quả về tim mạch và giảm cân ở người có tác động nhỏ và không đồng nhất.",
+                       "safety":  "Chứa caffeine. Chiết xuất EGCG liều cao có liên quan đến tổn thương gan hiếm gặp. Giảm hấp thu sắt khi uống cùng bữa ăn.",
+                       "studies":  [
+
+                                   ]
+                   },
+                   {
+                       "id":  "syzygium-aromaticum",
+                       "name":  "Đinh hương",
+                       "sci":  "Syzygium aromaticum",
+                       "alt":  "Clove",
+                       "family":  "Myrtaceae (họ Sim)",
+                       "parts":  "Nụ hoa",
+                       "origin":  "Nguồn gốc Indonesia, dược liệu chủ yếu nhập khẩu.",
+                       "trad":  "Dùng giảm đau răng, làm ấm bụng.",
+                       "effects":  [
+                                       "kk"
+                                   ],
+                       "compounds":  [
+                                         "eugenol"
+                                     ],
+                       "art":  "Tinh dầu đinh hương chứa 70-90% eugenol, được dùng trong nha khoa như chất giảm đau và sát khuẩn.",
+                       "safety":  "Eugenol có thể gây kích ứng niêm mạc và độc gan ở liều cao, nhất là ở trẻ nhỏ. Không nuốt tinh dầu nguyên chất.",
+                       "studies":  [
+
+                                   ]
+                   }
+               ]
+}
