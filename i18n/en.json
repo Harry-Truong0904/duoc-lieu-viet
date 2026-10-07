@@ -1,7 +1,7 @@
 {
   "pageTitle": "Vietnamese Medicinal Plants: Compound Guide",
   "siteName": "Vietnamese Medicinal Plants",
-  "lede": "Explore familiar medicinal plants in Vietnam, their key compounds, and research evidence. A seven-plant sample for testing the data structure.",
+  "lede": "Explore familiar medicinal plants in Vietnam, their key compounds, and research evidence. A 50-plant sample for testing the data structure.",
   "searchPlaceholder": "Search by plant or compound (e.g., turmeric, curcumin)",
   "searchLabel": "Search",
   "effectsGroupLabel": "Filter by studied property",

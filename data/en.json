@@ -1,1500 +1,1415 @@
 {
-    "effects":  [
-                    {
-                        "id":  "kv",
-                        "name":  "Anti-inflammatory",
-                        "description":  "Plants and compounds studied for their potential to reduce inflammatory responses."
-                    },
-                    {
-                        "id":  "an",
-                        "name":  "Calming / sleep",
-                        "description":  "Plants used traditionally for relaxation and sleep; most evidence remains preclinical."
-                    },
-                    {
-                        "id":  "gan",
-                        "name":  "Liver / biliary support",
-                        "description":  "Plants studied for liver-cell protection or stimulation of bile secretion."
-                    },
-                    {
-                        "id":  "td",
-                        "name":  "Digestion",
-                        "description":  "Plants used for bloating, nausea, digestive complaints, or constipation."
-                    },
-                    {
-                        "id":  "da",
-                        "name":  "Wound healing / skin",
-                        "description":  "Plants used topically or studied for wound healing and skin care."
-                    },
-                    {
-                        "id":  "ho",
-                        "name":  "Respiratory",
-                        "description":  "Plants used for cough, sore throat, and mild respiratory symptoms."
-                    },
-                    {
-                        "id":  "kk",
-                        "name":  "Antimicrobial",
-                        "description":  "Activity against bacteria, fungi, or parasites, often demonstrated in vitro."
-                    },
-                    {
-                        "id":  "cm",
-                        "name":  "Metabolism (blood glucose, lipids)",
-                        "description":  "Plants studied for effects on blood glucose or blood lipids."
-                    },
-                    {
-                        "id":  "tm",
-                        "name":  "Cardiovascular / vascular",
-                        "description":  "Plants studied for blood pressure, capillaries, or circulation."
-                    },
-                    {
-                        "id":  "lt",
-                        "name":  "Diuretic / urinary",
-                        "description":  "Plants used to increase urine output or support the urinary tract."
-                    },
-                    {
-                        "id":  "tl",
-                        "name":  "Restorative / adaptogenic",
-                        "description":  "Plants used traditionally for nourishment or fatigue; clinical evidence remains limited."
-                    },
-                    {
-                        "id":  "ha",
-                        "name":  "Cooling / fever",
-                        "description":  "Plants used traditionally for fever or a sensation of excess heat."
-                    },
-                    {
-                        "id":  "ox",
-                        "name":  "Antioxidant",
-                        "description":  "Plants rich in antioxidants; specific benefits in humans require further study."
-                    }
-                ],
-    "compounds":  [
-                      {
-                          "id":  "curcumin",
-                          "name":  "Curcumin",
-                          "cls":  "Curcuminoid (polyphenol)",
-                          "mech":  "Inhibits the NF-κB pathway and COX-2 enzyme in cell models. Oral bioavailability is low."
-                      },
-                      {
-                          "id":  "phyllanthin",
-                          "name":  "Phyllanthin",
-                          "cls":  "Lignan",
-                          "mech":  "Protects liver cells from chemical injury in animal models."
-                      },
-                      {
-                          "id":  "neferine",
-                          "name":  "Neferine / Liensinine",
-                          "cls":  "Alkaloid (benzylisoquinoline)",
-                          "mech":  "Affects the central nervous system in preclinical studies. The mechanism is unclear."
-                      },
-                      {
-                          "id":  "vitexin",
-                          "name":  "Vitexin",
-                          "cls":  "Flavonoid C-glycoside",
-                          "mech":  "Thought to regulate the GABA system. Evidence is mainly from P. incarnata."
-                      },
-                      {
-                          "id":  "cynarin",
-                          "name":  "Cynarin / acid chlorogenic",
-                          "cls":  "Polyphenol (caffeoylquinic acid)",
-                          "mech":  "Stimulates bile secretion and has antioxidant activity in experimental models."
-                      },
-                      {
-                          "id":  "gingerol",
-                          "name":  "Gingerol / Shogaol",
-                          "cls":  "Phenolic",
-                          "mech":  "Acts on serotonin 5-HT3 receptors and inflammatory mediators in experimental models."
-                      },
-                      {
-                          "id":  "asiaticoside",
-                          "name":  "Asiaticoside / Madecassoside",
-                          "cls":  "Triterpenoid saponin",
-                          "mech":  "Stimulates type I collagen synthesis in cultured fibroblasts."
-                      },
-                      {
-                          "id":  "allicin",
-                          "name":  "Allicin",
-                          "cls":  "Organosulfur compound",
-                          "mech":  "Reacts with thiol groups in microbial proteins in vitro."
-                      },
-                      {
-                          "id":  "rosmarinic",
-                          "name":  "Acid rosmarinic",
-                          "cls":  "Polyphenol",
-                          "mech":  "Antioxidant activity and reduced inflammatory mediators in cell models."
-                      },
-                      {
-                          "id":  "houttuynin",
-                          "name":  "Houttuynin",
-                          "cls":  "Long-chain carbonyl compound",
-                          "mech":  "Has antibacterial activity in vitro; it is unstable and readily metabolized."
-                      },
-                      {
-                          "id":  "quercetin",
-                          "name":  "Quercetin",
-                          "cls":  "Flavonoid (flavonol)",
-                          "mech":  "Antioxidant activity and modulation of some inflammation-related enzymes in cell models."
-                      },
-                      {
-                          "id":  "citral",
-                          "name":  "Citral",
-                          "cls":  "Monoterpene aldehyde",
-                          "mech":  "Has antifungal and antibacterial activity in vitro."
-                      },
-                      {
-                          "id":  "menthol",
-                          "name":  "Menthol",
-                          "cls":  "Monoterpene alcohol",
-                          "mech":  "Activates the cold-sensing channel TRPM8, producing a cooling sensation; relaxes intestinal smooth muscle in experimental models."
-                      },
-                      {
-                          "id":  "patchoulol",
-                          "name":  "Patchoulol",
-                          "cls":  "Sesquiterpene alcohol",
-                          "mech":  "A characteristic compound in patchouli essential oil; studied at the preclinical level."
-                      },
-                      {
-                          "id":  "glycyrrhizin",
-                          "name":  "Glycyrrhizin",
-                          "cls":  "Triterpenoid saponin",
-                          "mech":  "Anti-inflammatory activity in experimental models; inhibits 11β-HSD2 and may raise blood pressure."
-                      },
-                      {
-                          "id":  "rutin",
-                          "name":  "Rutin",
-                          "cls":  "Flavonoid glycoside",
-                          "mech":  "Studied for capillary support and antioxidant activity."
-                      },
-                      {
-                          "id":  "saponin_dl",
-                          "name":  "Saponin đinh lăng",
-                          "cls":  "Triterpenoid saponins from đinh lăng",
-                          "mech":  "Studied in animals for fatigue resistance and memory; the mechanism is unclear."
-                      },
-                      {
-                          "id":  "majonoside",
-                          "name":  "Majonoside R2",
-                          "cls":  "Ocotillol-type saponin",
-                          "mech":  "An ocotillol-type saponin characteristic of Vietnamese ginseng, studied for stress-related effects in animals."
-                      },
-                      {
-                          "id":  "luteolin",
-                          "name":  "Luteolin",
-                          "cls":  "Flavonoid (flavone)",
-                          "mech":  "Antioxidant activity and reduced inflammatory mediator expression in cell models."
-                      },
-                      {
-                          "id":  "andrographolide",
-                          "name":  "Andrographolide",
-                          "cls":  "Diterpenoid lactone",
-                          "mech":  "Inhibits NF-κB and has antiviral activity in experimental models."
-                      },
-                      {
-                          "id":  "charantin",
-                          "name":  "Charantin / polypeptide-p",
-                          "cls":  "Steroidal saponin and peptide",
-                          "mech":  "Has insulin-like effects in animal models."
-                      },
-                      {
-                          "id":  "gymnemic",
-                          "name":  "Acid gymnemic",
-                          "cls":  "Triterpenoid saponin",
-                          "mech":  "Reduces sweet-taste perception and intestinal glucose absorption in experimental models."
-                      },
-                      {
-                          "id":  "scopoletin",
-                          "name":  "Scopoletin",
-                          "cls":  "Coumarin",
-                          "mech":  "Anti-inflammatory and antioxidant activity in cell models."
-                      },
-                      {
-                          "id":  "tsg",
-                          "name":  "TSG (stilbene glycoside)",
-                          "cls":  "Stilbene glycoside",
-                          "mech":  "Antioxidant activity in experimental models."
-                      },
-                      {
-                          "id":  "anthraquinone",
-                          "name":  "Anthraquinone (emodin, chrysophanol)",
-                          "cls":  "Anthraquinones (emodin, chrysophanol)",
-                          "mech":  "Stimulates intestinal motility and has a laxative effect."
-                      },
-                      {
-                          "id":  "solasodine",
-                          "name":  "Solasodine",
-                          "cls":  "Steroidal alkaloid",
-                          "mech":  "Studied for liver protection and cytotoxicity; may be toxic at high doses."
-                      },
-                      {
-                          "id":  "cineole",
-                          "name":  "Cineole",
-                          "cls":  "Monoterpene (essential oil)",
-                          "mech":  "An essential-oil component with mild anti-inflammatory activity in experimental models."
-                      },
-                      {
-                          "id":  "artemisinin",
-                          "name":  "Artemisinin",
-                          "cls":  "Sesquiterpene lactone (endoperoxide bridge)",
-                          "mech":  "Its endoperoxide bridge generates free radicals in the presence of iron in malaria parasites, killing the parasites."
-                      },
-                      {
-                          "id":  "lactucin",
-                          "name":  "Lactucin",
-                          "cls":  "Sesquiterpene lactone",
-                          "mech":  "A bitter compound studied for anti-inflammatory activity in cell models."
-                      },
-                      {
-                          "id":  "monotropein",
-                          "name":  "Monotropein",
-                          "cls":  "Iridoid glycoside",
-                          "mech":  "Studied in animals for effects on bones and joints."
-                      },
-                      {
-                          "id":  "eugenol",
-                          "name":  "Eugenol",
-                          "cls":  "Phenylpropanoid",
-                          "mech":  "Has antibacterial activity and local anesthetic effects; may irritate mucous membranes at high concentrations."
-                      },
-                      {
-                          "id":  "wedelolactone",
-                          "name":  "Wedelolactone",
-                          "cls":  "Coumestan",
-                          "mech":  "Inhibits IKK and reduces inflammatory signaling in cell models."
-                      },
-                      {
-                          "id":  "piperamide",
-                          "name":  "Piperamide",
-                          "cls":  "Alkaloid amide",
-                          "mech":  "Anti-inflammatory and analgesic activity in experimental models."
-                      },
-                      {
-                          "id":  "hydroxychavicol",
-                          "name":  "Hydroxychavicol",
-                          "cls":  "Phenol",
-                          "mech":  "Antibacterial and antifungal activity in vitro."
-                      },
-                      {
-                          "id":  "leonurine",
-                          "name":  "Leonurine",
-                          "cls":  "Alkaloid",
-                          "mech":  "Affects blood vessels and uterine contractions in experimental models."
-                      },
-                      {
-                          "id":  "acemannan",
-                          "name":  "Acemannan",
-                          "cls":  "Polysaccharide (aloe gel)",
-                          "mech":  "Studied for stimulation of wound healing in experimental models."
-                      },
-                      {
-                          "id":  "aloin",
-                          "name":  "Aloin",
-                          "cls":  "Anthrone C-glycoside",
-                          "mech":  "Stimulates intestinal motility and has a strong laxative effect."
-                      },
-                      {
-                          "id":  "cardamonin",
-                          "name":  "Cardamonin",
-                          "cls":  "Chalcone",
-                          "mech":  "Anti-inflammatory and antioxidant activity in cell models."
-                      },
-                      {
-                          "id":  "aucubin",
-                          "name":  "Aucubin",
-                          "cls":  "Iridoid glycoside",
-                          "mech":  "Anti-inflammatory activity in experimental models."
-                      },
-                      {
-                          "id":  "maysin",
-                          "name":  "Maysin",
-                          "cls":  "Flavone C-glycoside",
-                          "mech":  "A flavonoid characteristic of corn silk; its diuretic effects require further study."
-                      },
-                      {
-                          "id":  "fcg",
-                          "name":  "Flavonoid C-glycoside (vd. schaftoside)",
-                          "cls":  "Flavonoid C-glycoside",
-                          "mech":  "Studied for effects on urinary stones in animal models."
-                      },
-                      {
-                          "id":  "dhm",
-                          "name":  "Dihydromyricetin",
-                          "cls":  "Flavanonol",
-                          "mech":  "Antioxidant activity and liver protection in animal models."
-                      },
-                      {
-                          "id":  "lycopene",
-                          "name":  "Lycopene / beta-carotene",
-                          "cls":  "Carotenoid",
-                          "mech":  "Antioxidant activity; beta-carotene is a vitamin A precursor."
-                      },
-                      {
-                          "id":  "apigenin",
-                          "name":  "Apigenin",
-                          "cls":  "Flavonoid (flavone)",
-                          "mech":  "Antioxidant and anti-inflammatory activity in cell models."
-                      },
-                      {
-                          "id":  "notoginsenoside",
-                          "name":  "Notoginsenoside R1",
-                          "cls":  "Dammarane saponin",
-                          "mech":  "Studied for effects on blood coagulation and blood vessels in experimental models."
-                      },
-                      {
-                          "id":  "cinnamaldehyde",
-                          "name":  "Cinnamaldehyde",
-                          "cls":  "Phenylpropanoid aldehyde",
-                          "mech":  "Antibacterial activity in vitro; may have a mild effect on insulin sensitivity."
-                      },
-                      {
-                          "id":  "anethole",
-                          "name":  "Anethole",
-                          "cls":  "Phenylpropanoid",
-                          "mech":  "The compound responsible for star anise aroma; has antibacterial activity in vitro."
-                      },
-                      {
-                          "id":  "piperine",
-                          "name":  "Piperine",
-                          "cls":  "Alkaloid amide",
-                          "mech":  "Inhibits drug-metabolizing enzymes and may increase the absorption of some substances."
-                      },
-                      {
-                          "id":  "ala",
-                          "name":  "Acid alpha-linolenic",
-                          "cls":  "Alpha-linolenic acid",
-                          "mech":  "A precursor of EPA and DHA in the body; conversion is limited."
-                      },
-                      {
-                          "id":  "egcg",
-                          "name":  "EGCG",
-                          "cls":  "Catechin",
-                          "mech":  "Strong antioxidant activity in vitro; inhibits some enzymes in cell models."
-                      }
-                  ],
-    "plants":  [
-                   {
-                       "id":  "curcuma-longa",
-                       "name":  "Turmeric",
-                       "sci":  "Curcuma longa",
-                       "alt":  "Nghệ, turmeric",
-                       "family":  "Zingiberaceae",
-                       "parts":  "Rhizome",
-                       "origin":  "Native to South Asia and widely cultivated throughout Vietnam.",
-                       "trad":  "Traditionally used for stomach pain, wound care, and postpartum recovery.",
-                       "effects":  [
-                                       "kv",
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "curcumin"
-                                     ],
-                       "art":  "The yellow color of turmeric comes from curcuminoids, of which curcumin is the most studied. Cell experiments show reduced inflammatory signaling, but curcumin is poorly absorbed and human results are inconsistent.",
-                       "safety":  "High doses or prolonged use may cause digestive discomfort. Use caution with gallstones or anticoagulant medicines.",
-                       "studies":  [
-                                       {
-                                           "t":  "Curcumin: a review of its effects on human health",
-                                           "a":  "Hewlings \u0026 Kalman",
-                                           "y":  2017,
-                                           "j":  "Foods",
-                                           "type":  "review",
-                                           "verification":  "unverified"
-                                       }
-                                   ]
-                   },
-                   {
-                       "id":  "phyllanthus-urinaria",
-                       "name":  "Chamber bitter",
-                       "sci":  "Phyllanthus urinaria",
-                       "alt":  "Chó đẻ răng cưa",
-                       "family":  "Phyllanthaceae",
-                       "parts":  "Whole plant",
-                       "origin":  "Grows wild in tropical Asia and is common in Vietnam.",
-                       "trad":  "Traditionally used for cooling the liver and increasing urination.",
-                       "effects":  [
-                                       "gan"
-                                   ],
-                       "compounds":  [
-                                         "phyllanthin"
-                                     ],
-                       "art":  "Lignans such as phyllanthin are among the most discussed compounds in Phyllanthus. Liver-protective findings come mainly from animal models and do not establish the plant as a treatment for liver disease.",
-                       "safety":  "Safety in pregnancy and breastfeeding is not well established. People with liver disease should consult a clinician and should not replace prescribed treatment.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "nelumbo-nucifera",
-                       "name":  "Lotus plumule",
-                       "sci":  "Nelumbo nucifera",
-                       "alt":  "Liên tâm, lotus plumule",
-                       "family":  "Nelumbonaceae",
-                       "parts":  "Lotus plumule",
-                       "origin":  "Cultivated in ponds and lakes throughout Vietnam.",
-                       "trad":  "Traditionally steeped as a tea for relaxation and cooling.",
-                       "effects":  [
-                                       "an"
-                                   ],
-                       "compounds":  [
-                                         "neferine"
-                                     ],
-                       "art":  "Lotus plumules contain alkaloids such as neferine and liensinine. Sedative findings are mainly preclinical, and their role in sleep in humans requires further trials.",
-                       "safety":  "Considered cooling in traditional medicine. Use caution with low blood pressure or a cold digestive constitution.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "passiflora-foetida",
-                       "name":  "Wild passionflower",
-                       "sci":  "Passiflora foetida",
-                       "alt":  "Chùm bao, nhãn lồng",
-                       "family":  "Passifloraceae",
-                       "parts":  "Whole plant, aerial parts",
-                       "origin":  "Native to tropical America; grows wild in Vietnam.",
-                       "trad":  "Traditionally prepared as a drink for sleep and relaxation.",
-                       "effects":  [
-                                       "an"
-                                   ],
-                       "compounds":  [
-                                         "vitexin"
-                                     ],
-                       "art":  "Most clinical evidence for sedation in the Passiflora genus concerns P. incarnata. P. foetida is a different species with less data, so findings should not be directly transferred between species.",
-                       "safety":  "May cause drowsiness; use caution with sedatives. Avoid during pregnancy.",
-                       "studies":  [
-                                       {
-                                           "t":  "Passiflora incarnata in neuropsychiatric disorders: a systematic review",
-                                           "a":  "Janda et al.",
-                                           "y":  2020,
-                                           "j":  "Nutrients",
-                                           "type":  "systematic review (P. incarnata)",
-                                           "verification":  "unverified"
-                                       }
-                                   ]
-                   },
-                   {
-                       "id":  "cynara-scolymus",
-                       "name":  "Globe artichoke",
-                       "sci":  "Cynara scolymus",
-                       "alt":  "Atisô, artichoke",
-                       "family":  "Asteraceae",
-                       "parts":  "Leaves, flower heads",
-                       "origin":  "Native to the Mediterranean; widely cultivated in Đà Lạt and Sa Pa.",
-                       "trad":  "Traditionally prepared as a drink for cooling the liver and supporting bile flow.",
-                       "effects":  [
-                                       "gan",
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "cynarin"
-                                     ],
-                       "art":  "Artichoke leaves are rich in caffeoylquinic compounds such as cynarin and chlorogenic acid. These have been studied for stimulating bile secretion and supporting fat digestion.",
-                       "safety":  "Avoid with bile-duct obstruction or gallstones. People allergic to the daisy family may react.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "zingiber-officinale",
-                       "name":  "Ginger",
-                       "sci":  "Zingiber officinale",
-                       "alt":  "Sinh khương, ginger",
-                       "family":  "Zingiberaceae",
-                       "parts":  "Rhizome",
-                       "origin":  "Native to Southeast Asia and cultivated throughout the country.",
-                       "trad":  "Traditionally used for colds, nausea, or bloating.",
-                       "effects":  [
-                                       "kv",
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "gingerol"
-                                     ],
-                       "art":  "Gingerol gives ginger its pungency and converts to shogaol when dried or cooked. Nausea is the area with the strongest clinical evidence for ginger.",
-                       "safety":  "High doses may cause heartburn. Use caution with anticoagulant medicines.",
-                       "studies":  [
-                                       {
-                                           "t":  "Efficacy of ginger for nausea and vomiting in pregnancy",
-                                           "a":  "Viljoen et al.",
-                                           "y":  2014,
-                                           "j":  "Nutrition Journal",
-                                           "type":  "meta-analysis",
-                                           "verification":  "unverified"
-                                       }
-                                   ]
-                   },
-                   {
-                       "id":  "centella-asiatica",
-                       "name":  "Gotu kola",
-                       "sci":  "Centella asiatica",
-                       "alt":  "Tích tuyết thảo, gotu kola",
-                       "family":  "Apiaceae",
-                       "parts":  "Whole plant",
-                       "origin":  "Grows wild in damp areas throughout Vietnam.",
-                       "trad":  "Traditionally consumed for cooling and applied to support wound healing.",
-                       "effects":  [
-                                       "da",
-                                       "kv"
-                                   ],
-                       "compounds":  [
-                                         "asiaticoside"
-                                     ],
-                       "art":  "Gotu kola contains triterpenoid saponins such as asiaticoside and madecassoside. These are studied mainly for wound healing and skin care.",
-                       "safety":  "Considered cooling in traditional medicine; use caution during pregnancy. Rare reports link prolonged use of extracts with liver effects.",
-                       "studies":  [
-                                       {
-                                           "t":  "Centella asiatica in cosmetology",
-                                           "a":  "Bylka et al.",
-                                           "y":  2013,
-                                           "j":  "Postępy Dermatologii i Alergologii",
-                                           "type":  "review",
-                                           "verification":  "unverified"
-                                       }
-                                   ]
-                   },
-                   {
-                       "id":  "allium-sativum",
-                       "name":  "Garlic",
-                       "sci":  "Allium sativum",
-                       "alt":  "Đại toán, garlic",
-                       "family":  "Amaryllidaceae",
-                       "parts":  "Bulb (cloves)",
-                       "origin":  "Native to Central Asia and cultivated throughout Vietnam.",
-                       "trad":  "Used in cooking and traditionally for colds and bloating.",
-                       "effects":  [
-                                       "kk",
-                                       "tm"
-                                   ],
-                       "compounds":  [
-                                         "allicin"
-                                     ],
-                       "art":  "Allicin forms when a garlic clove is crushed. This sulfur compound has antimicrobial activity in vitro. Effects on blood pressure and blood lipids have been studied in humans, but results are inconsistent.",
-                       "safety":  "May increase bleeding risk; use caution with anticoagulants or before surgery. Large amounts on an empty stomach may irritate the stomach.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "perilla-frutescens",
-                       "name":  "Perilla",
-                       "sci":  "Perilla frutescens",
-                       "alt":  "Tô diệp, perilla",
-                       "family":  "Lamiaceae",
-                       "parts":  "Leaves, seeds",
-                       "origin":  "Native to East Asia and grown as a vegetable in Vietnam.",
-                       "trad":  "Traditionally used for colds or cough; the leaves are often eaten with crab and fish.",
-                       "effects":  [
-                                       "ho",
-                                       "kv",
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "rosmarinic"
-                                     ],
-                       "art":  "Perilla leaves contain rosmarinic acid and essential oil rich in perillaldehyde. Rosmarinic acid is studied for potential effects on inflammation and allergy, mainly in cell and animal models.",
-                       "safety":  "People allergic to the mint family may react. Do not drink undiluted perilla essential oil.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "houttuynia-cordata",
-                       "name":  "Fish mint",
-                       "sci":  "Houttuynia cordata",
-                       "alt":  "Rau giấp cá, fish mint",
-                       "family":  "Saururaceae",
-                       "parts":  "Whole plant, leaves",
-                       "origin":  "Grows in damp areas throughout Vietnam and East Asia.",
-                       "trad":  "Eaten raw or juiced; traditionally used for internal heat, skin boils, or hemorrhoids.",
-                       "effects":  [
-                                       "kv",
-                                       "kk",
-                                       "lt"
-                                   ],
-                       "compounds":  [
-                                         "houttuynin",
-                                         "quercetin"
-                                     ],
-                       "art":  "The characteristic fishy odor comes from houttuynin. The plant is studied for antibacterial and anti-inflammatory activity in vitro; human data are limited.",
-                       "safety":  "Allergic reactions have been reported with injected extracts. Long-term oral safety data are insufficient.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "cymbopogon-citratus",
-                       "name":  "Lemongrass",
-                       "sci":  "Cymbopogon citratus",
-                       "alt":  "Lemongrass",
-                       "family":  "Poaceae",
-                       "parts":  "Stems, leaves",
-                       "origin":  "Native to South Asia and widely cultivated in Vietnam.",
-                       "trad":  "Used in steam inhalation for colds, as a seasoning, and traditionally for bloating.",
-                       "effects":  [
-                                       "kk",
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "citral"
-                                     ],
-                       "art":  "Lemongrass essential oil contains citral, which gives it a lemon scent and has antifungal and antibacterial activity in vitro.",
-                       "safety":  "Undiluted essential oil may irritate the skin. Use caution during pregnancy with amounts above those used in food.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "mentha-arvensis",
-                       "name":  "Field mint",
-                       "sci":  "Mentha arvensis",
-                       "alt":  "Bạc hà Á, field mint",
-                       "family":  "Lamiaceae",
-                       "parts":  "Leaves, aerial parts",
-                       "origin":  "Widely cultivated in Vietnam.",
-                       "trad":  "Traditionally used in steam inhalation for colds and for bloating or headache.",
-                       "effects":  [
-                                       "td",
-                                       "ho"
-                                   ],
-                       "compounds":  [
-                                         "menthol"
-                                     ],
-                       "art":  "Menthol activates the cold-sensing channel TRPM8, producing a cooling sensation. Peppermint oil has been studied for reducing irritable bowel syndrome symptoms.",
-                       "safety":  "May worsen gastric reflux. Do not apply menthol to young childrens faces because of the risk of laryngospasm.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "pogostemon-cablin",
-                       "name":  "Patchouli",
-                       "sci":  "Pogostemon cablin",
-                       "alt":  "Quảng hoắc hương, patchouli",
-                       "family":  "Lamiaceae",
-                       "parts":  "Aerial parts",
-                       "origin":  "Native to Southeast Asia and cultivated in Vietnam.",
-                       "trad":  "Traditionally used for bloating, nausea, or heat exhaustion.",
-                       "effects":  [
-                                       "td",
-                                       "kk"
-                                   ],
-                       "compounds":  [
-                                         "patchoulol"
-                                     ],
-                       "art":  "The essential oil contains patchoulol, a characteristic sesquiterpene. Studies of digestive and antimicrobial effects are mainly preclinical.",
-                       "safety":  "Safety in pregnancy and breastfeeding is not well established.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "glycyrrhiza-uralensis",
-                       "name":  "Chinese licorice",
-                       "sci":  "Glycyrrhiza uralensis",
-                       "alt":  "Cam thảo bắc, licorice",
-                       "family":  "Fabaceae",
-                       "parts":  "Roots, rhizomes",
-                       "origin":  "Native to Northeast Asia; commonly imported as a medicinal material in Vietnam.",
-                       "trad":  "Traditionally used to soothe cough, harmonize herbal formulas, and ease stomach pain.",
-                       "effects":  [
-                                       "ho",
-                                       "kv",
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "glycyrrhizin"
-                                     ],
-                       "art":  "Glycyrrhizin is many times sweeter than sugar and is studied for anti-inflammatory effects. The same compound is responsible for licorices most notable adverse effects.",
-                       "safety":  "High doses or prolonged use may cause high blood pressure and low potassium. Avoid with heart or kidney disease or uncontrolled hypertension.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "styphnolobium-japonicum",
-                       "name":  "Japanese pagoda tree",
-                       "sci":  "Styphnolobium japonicum",
-                       "alt":  "Hòe, Sophora japonica",
-                       "family":  "Fabaceae",
-                       "parts":  "Flower buds",
-                       "origin":  "Native to East Asia and cultivated in northern Vietnam.",
-                       "trad":  "Flower buds are roasted and steeped as tea; traditionally used for bleeding or high blood pressure.",
-                       "effects":  [
-                                       "tm"
-                                   ],
-                       "compounds":  [
-                                         "rutin",
-                                         "quercetin"
-                                     ],
-                       "art":  "Pagoda-tree buds are a well-known natural source of rutin. Rutin is studied for possible capillary-supporting effects, but human evidence is limited.",
-                       "safety":  "May interact with anticoagulant medicines. Use caution with low blood pressure.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "polyscias-fruticosa",
-                       "name":  "Ming aralia",
-                       "sci":  "Polyscias fruticosa",
-                       "alt":  "Nam dương sâm",
-                       "family":  "Araliaceae",
-                       "parts":  "Roots, leaves",
-                       "origin":  "Native to the Pacific islands and cultivated throughout Vietnam.",
-                       "trad":  "Traditionally used as a restorative, for fatigue, and to support lactation.",
-                       "effects":  [
-                                       "tl"
-                                   ],
-                       "compounds":  [
-                                         "saponin_dl"
-                                     ],
-                       "art":  "Ming aralia roots contain triterpenoid saponins, compounds also found in the ginseng family. Studies of fatigue resistance and memory are mainly in animals.",
-                       "safety":  "High doses may cause digestive discomfort. Safety during pregnancy is not well established.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "panax-vietnamensis",
-                       "name":  "Vietnamese ginseng",
-                       "sci":  "Panax vietnamensis",
-                       "alt":  "Sâm Việt Nam",
-                       "family":  "Araliaceae",
-                       "parts":  "Tuberous roots",
-                       "origin":  "Endemic to the Ngọc Linh mountains in Kon Tum and Quảng Nam; conserved and cultivated there.",
-                       "trad":  "Used by the Xe Dang people as a traditional restorative.",
-                       "effects":  [
-                                       "tl"
-                                   ],
-                       "compounds":  [
-                                         "majonoside"
-                                     ],
-                       "art":  "Vietnamese ginseng is notable for ocotillol-type saponins such as majonoside R2, which are uncommon in other ginseng species. Pharmacological evidence is mainly preclinical.",
-                       "safety":  "The high price creates a risk of counterfeit products. Use caution with anticoagulants or diabetes medicines.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "lonicera-japonica",
-                       "name":  "Japanese honeysuckle",
-                       "sci":  "Lonicera japonica",
-                       "alt":  "Nhẫn đông",
-                       "family":  "Caprifoliaceae",
-                       "parts":  "Flower buds, leafy branches",
-                       "origin":  "Native to East Asia; grows and is cultivated in northern mountainous areas.",
-                       "trad":  "Traditionally used for internal heat, skin boils, or fever.",
-                       "effects":  [
-                                       "kv",
-                                       "kk",
-                                       "ha"
-                                   ],
-                       "compounds":  [
-                                         "cynarin",
-                                         "luteolin"
-                                     ],
-                       "art":  "The flowers contain chlorogenic acid and luteolin. The plant has a long history of traditional use in East Asian medicine for heat conditions and has been studied for anti-inflammatory and antimicrobial activity in vitro.",
-                       "safety":  "Use caution according to traditional medicine for people with a cold digestive constitution, such as those prone to diarrhea or abdominal chill.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "andrographis-paniculata",
-                       "name":  "Green chiretta",
-                       "sci":  "Andrographis paniculata",
-                       "alt":  "Khổ đảm thảo, king of bitters",
-                       "family":  "Acanthaceae",
-                       "parts":  "Aerial parts",
-                       "origin":  "Native to South Asia and cultivated in Vietnam.",
-                       "trad":  "Traditionally used for fever, sore throat, or diarrhea.",
-                       "effects":  [
-                                       "kv",
-                                       "kk",
-                                       "ho",
-                                       "ha"
-                                   ],
-                       "compounds":  [
-                                         "andrographolide"
-                                     ],
-                       "art":  "Andrographolide is a bitter diterpenoid characteristic of the plant. It is among the few medicinal herbs studied in clinical trials for upper respiratory infections, but study quality varies.",
-                       "safety":  "May cause allergic reactions; severe reactions to injectable forms are rare. Use caution during pregnancy. Stop use and seek care for rash or difficulty breathing.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "momordica-charantia",
-                       "name":  "Bitter melon",
-                       "sci":  "Momordica charantia",
-                       "alt":  "Khổ qua, bitter melon",
-                       "family":  "Cucurbitaceae",
-                       "parts":  "Fruit",
-                       "origin":  "Widely cultivated in Vietnam.",
-                       "trad":  "Eaten for cooling and traditionally used by people with diabetes.",
-                       "effects":  [
-                                       "cm"
-                                   ],
-                       "compounds":  [
-                                         "charantin"
-                                     ],
-                       "art":  "The fruit contains compounds such as charantin and polypeptide-p, which have insulin-like effects in animal models. Human trial results are inconsistent.",
-                       "safety":  "May cause excessive blood-glucose lowering when used with diabetes medicines. Avoid seeds and concentrated extracts during pregnancy.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "gymnema-sylvestre",
-                       "name":  "Gymnema",
-                       "sci":  "Gymnema sylvestre",
-                       "alt":  "Gurmar",
-                       "family":  "Apocynaceae",
-                       "parts":  "Leaves",
-                       "origin":  "Grows in tropical Asian forests and is found in Vietnam.",
-                       "trad":  "Used in Indian traditional medicine to support blood-glucose control.",
-                       "effects":  [
-                                       "cm"
-                                   ],
-                       "compounds":  [
-                                         "gymnemic"
-                                     ],
-                       "art":  "Gymnemic acid reduces sweet-taste perception on the tongue and glucose absorption in the intestine in experimental models. A few small clinical trials have been conducted.",
-                       "safety":  "May lower blood glucose when used with diabetes medicines.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "morinda-citrifolia",
-                       "name":  "Noni",
-                       "sci":  "Morinda citrifolia",
-                       "alt":  "Noni",
-                       "family":  "Rubiaceae",
-                       "parts":  "Fruits, leaves, roots",
-                       "origin":  "Native to Southeast Asia and Polynesia; grows widely in Vietnam.",
-                       "trad":  "Fruit and roots are traditionally used for joint pain and high blood pressure.",
-                       "effects":  [
-                                       "kv"
-                                   ],
-                       "compounds":  [
-                                         "scopoletin"
-                                     ],
-                       "art":  "Noni contains scopoletin, a coumarin studied for potential anti-inflammatory effects. Noni juice is widely sold, but human evidence is limited.",
-                       "safety":  "Noni juice is high in potassium. Rare liver-injury reports exist; use caution with kidney or liver disease.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "reynoutria-multiflora",
-                       "name":  "Fo-ti",
-                       "sci":  "Reynoutria multiflora",
-                       "alt":  "Hà thủ ô, Fallopia multiflora",
-                       "family":  "Polygonaceae",
-                       "parts":  "Tuberous roots",
-                       "origin":  "Grows in mountainous areas of northern Vietnam and China.",
-                       "trad":  "Traditionally used as a restorative and for hair care.",
-                       "effects":  [
-                                       "tl",
-                                       "ox"
-                                   ],
-                       "compounds":  [
-                                         "tsg",
-                                         "anthraquinone"
-                                     ],
-                       "art":  "The roots contain stilbene glycosides (TSG) and anthraquinones. TSG is studied for antioxidant activity, but many reports link the plant to liver injury.",
-                       "safety":  "Many reports associate fo-ti with liver injury, especially in unprocessed forms. Do not self-use with liver disease; medical monitoring is needed.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "senna-tora",
-                       "name":  "Sickle senna",
-                       "sci":  "Senna tora",
-                       "alt":  "Muồng ngủ, Cassia tora",
-                       "family":  "Fabaceae",
-                       "parts":  "Seeds",
-                       "origin":  "Grows wild throughout Vietnam.",
-                       "trad":  "Seeds are roasted and steeped as tea; traditionally used for constipation and cooling the liver.",
-                       "effects":  [
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "anthraquinone"
-                                     ],
-                       "art":  "The seeds contain anthraquinones such as emodin and chrysophanol, compounds that stimulate intestinal motility and explain the laxative effect.",
-                       "safety":  "Long-term use may cause laxative dependence and potassium loss. Do not use during pregnancy.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "solanum-procumbens",
-                       "name":  "Solanum procumbens",
-                       "sci":  "Solanum procumbens",
-                       "alt":  "Cà gai dại",
-                       "family":  "Solanaceae",
-                       "parts":  "Whole plant",
-                       "origin":  "Grows wild in northern and central Vietnam.",
-                       "trad":  "Traditionally used for cooling the liver and detoxification.",
-                       "effects":  [
-                                       "gan"
-                                   ],
-                       "compounds":  [
-                                         "solasodine"
-                                     ],
-                       "art":  "The plant has been studied in Vietnam for liver support and contains steroidal alkaloids such as solasodine. High-quality clinical evidence is lacking.",
-                       "safety":  "Steroidal alkaloids may be toxic at high doses. Do not replace prescribed liver-disease treatment.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "artemisia-vulgaris",
-                       "name":  "Mugwort",
-                       "sci":  "Artemisia vulgaris",
-                       "alt":  "Ngải diệp, mugwort",
-                       "family":  "Asteraceae",
-                       "parts":  "Leaves, shoots",
-                       "origin":  "Grows and is cultivated throughout Vietnam.",
-                       "trad":  "Used in cooking and traditionally as a decoction for menstrual regulation or moxibustion.",
-                       "effects":  [
-                                       "kv",
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "cineole"
-                                     ],
-                       "art":  "The plant contains essential oils, including cineole and thujone, and flavonoids. Studies of anti-inflammatory and digestive effects remain preclinical.",
-                       "safety":  "Avoid during pregnancy because it may stimulate the uterus. Thujone is neurotoxic at high doses. People allergic to the daisy family may react.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "artemisia-annua",
-                       "name":  "Sweet wormwood",
-                       "sci":  "Artemisia annua",
-                       "alt":  "Thanh hao, sweet wormwood",
-                       "family":  "Asteraceae",
-                       "parts":  "Aerial parts",
-                       "origin":  "Grows wild in northern Vietnam and is cultivated for artemisinin extraction.",
-                       "trad":  "Traditionally used for fever and mentioned in traditional accounts of malaria.",
-                       "effects":  [
-                                       "kk",
-                                       "ha"
-                                   ],
-                       "compounds":  [
-                                         "artemisinin"
-                                     ],
-                       "art":  "Artemisinin, isolated from this plant, is the basis of modern antimalarial medicines and brought Tu Youyou the 2015 Nobel Prize in Physiology or Medicine. This is a clear example of a medicinal-plant compound with clinical evidence.",
-                       "safety":  "Do not use sweet-wormwood tea alone to treat malaria. Artemisinin medicines must be used according to a medical regimen.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "lactuca-indica",
-                       "name":  "Indian lettuce",
-                       "sci":  "Lactuca indica",
-                       "alt":  "Diếp dại, Indian lettuce",
-                       "family":  "Asteraceae",
-                       "parts":  "Leaves, whole plant",
-                       "origin":  "Grows wild throughout Vietnam.",
-                       "trad":  "Traditionally applied to boils, breast swelling, or detoxification.",
-                       "effects":  [
-                                       "kv",
-                                       "kk"
-                                   ],
-                       "compounds":  [
-                                         "lactucin",
-                                         "luteolin"
-                                     ],
-                       "art":  "Vietnamese bồ công anh (Lactuca indica) differs from European dandelion (Taraxacum). The plant contains flavonoids and sesquiterpene lactones and is studied for anti-inflammatory and antibacterial activity in vitro.",
-                       "safety":  "People allergic to the daisy family may react. Pregnancy safety data are insufficient.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "morinda-officinalis",
-                       "name":  "Morinda root",
-                       "sci":  "Morinda officinalis",
-                       "alt":  "Ba kích thiên",
-                       "family":  "Rubiaceae",
-                       "parts":  "Roots",
-                       "origin":  "Grows in mountainous areas of northern Vietnam and southern China.",
-                       "trad":  "Traditionally steeped in alcohol as a restorative and used for lower-back and knee aches.",
-                       "effects":  [
-                                       "tl"
-                                   ],
-                       "compounds":  [
-                                         "monotropein",
-                                         "anthraquinone"
-                                     ],
-                       "art":  "The roots contain iridoids such as monotropein and anthraquinones. Studies of joint and adaptogenic effects are mainly in animals.",
-                       "safety":  "Long-term human safety data are insufficient. Avoid during pregnancy.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "ocimum-gratissimum",
-                       "name":  "Clove basil",
-                       "sci":  "Ocimum gratissimum",
-                       "alt":  "Hương nhu trắng, clove basil",
-                       "family":  "Lamiaceae",
-                       "parts":  "Leaves, shoots",
-                       "origin":  "Grows wild and is cultivated in Vietnam.",
-                       "trad":  "Traditionally used in hair-washing preparations and steam inhalation for colds.",
-                       "effects":  [
-                                       "kk",
-                                       "ho"
-                                   ],
-                       "compounds":  [
-                                         "eugenol"
-                                     ],
-                       "art":  "The essential oil contains eugenol, which has antibacterial and antifungal activity in vitro.",
-                       "safety":  "Pure eugenol may irritate mucous membranes and skin. Use caution with essential oils during pregnancy.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "sphagneticola-calendulacea",
-                       "name":  "Wedelia",
-                       "sci":  "Sphagneticola calendulacea",
-                       "alt":  "Wedelia, cúc nhám",
-                       "family":  "Asteraceae",
-                       "parts":  "Whole plant",
-                       "origin":  "Grows wild in damp areas of Vietnam.",
-                       "trad":  "Traditionally prepared as a drink or bath for prickly heat or skin boils in children.",
-                       "effects":  [
-                                       "kv",
-                                       "da"
-                                   ],
-                       "compounds":  [
-                                         "wedelolactone",
-                                         "luteolin"
-                                     ],
-                       "art":  "The plant contains wedelolactone and luteolin, two compounds studied for anti-inflammatory activity. It is commonly used in folk practice for mild inflammatory skin conditions.",
-                       "safety":  "People allergic to the daisy family may react. Do not use instead of medical care for severe skin infection.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "eclipta-prostrata",
-                       "name":  "False daisy",
-                       "sci":  "Eclipta prostrata",
-                       "alt":  "Nhọ nồi",
-                       "family":  "Asteraceae",
-                       "parts":  "Whole plant",
-                       "origin":  "Grows wild along fields and ditches throughout Vietnam.",
-                       "trad":  "Traditionally used for bleeding, cooling the liver, and hair care.",
-                       "effects":  [
-                                       "gan",
-                                       "da"
-                                   ],
-                       "compounds":  [
-                                         "wedelolactone"
-                                     ],
-                       "art":  "Wedelolactone is a notable coumestan in false daisy and has been studied for liver-protective and anti-inflammatory effects in animal models.",
-                       "safety":  "Human safety data are limited. Use caution during pregnancy.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "piper-lolot",
-                       "name":  "Lolot leaf",
-                       "sci":  "Piper lolot",
-                       "alt":  "Lốt",
-                       "family":  "Piperaceae",
-                       "parts":  "Leaves",
-                       "origin":  "Grows and is cultivated in humid areas of Southeast Asia; common in Vietnam.",
-                       "trad":  "Eaten with meat; traditionally used for joint aches and numb legs.",
-                       "effects":  [
-                                       "kv",
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "piperamide"
-                                     ],
-                       "art":  "The leaves contain piperamide alkaloids and essential oils. Studies of anti-inflammatory and analgesic effects are mainly experimental.",
-                       "safety":  "Safety data for pregnancy and high-dose extracts are insufficient.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "piper-betle",
-                       "name":  "Betel leaf",
-                       "sci":  "Piper betle",
-                       "alt":  "Trầu",
-                       "family":  "Piperaceae",
-                       "parts":  "Leaves",
-                       "origin":  "Widely cultivated in Vietnam.",
-                       "trad":  "Traditionally chewed and prepared as a wash for wounds or mouth rinsing.",
-                       "effects":  [
-                                       "kk",
-                                       "da"
-                                   ],
-                       "compounds":  [
-                                         "hydroxychavicol"
-                                     ],
-                       "art":  "Hydroxychavicol is a major phenol in betel leaves and has antibacterial and antifungal activity in vitro.",
-                       "safety":  "Chewing betel with areca nut and lime is associated with oral-cancer risk according to IARC classification.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "leonurus-japonicus",
-                       "name":  "Chinese motherwort",
-                       "sci":  "Leonurus japonicus",
-                       "alt":  "Sung úy, motherwort",
-                       "family":  "Lamiaceae",
-                       "parts":  "Aerial parts",
-                       "origin":  "Grows wild throughout Vietnam.",
-                       "trad":  "Traditionally used for menstrual regulation and postpartum support.",
-                       "effects":  [
-                                       "tm"
-                                   ],
-                       "compounds":  [
-                                         "leonurine"
-                                     ],
-                       "art":  "Leonurine is a characteristic alkaloid studied for effects on blood vessels and uterine contractions in experimental models.",
-                       "safety":  "Do not use during pregnancy because it may stimulate uterine contractions.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "aloe-vera",
-                       "name":  "Aloe vera",
-                       "sci":  "Aloe vera",
-                       "alt":  "Nha đam",
-                       "family":  "Asphodelaceae",
-                       "parts":  "Leaf gel, latex",
-                       "origin":  "Native to the Arabian Peninsula and widely cultivated in Vietnam.",
-                       "trad":  "Gel is traditionally applied to minor burns; leaf latex is used as a laxative.",
-                       "effects":  [
-                                       "da",
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "acemannan",
-                                         "aloin"
-                                     ],
-                       "art":  "The clear leaf gel (acemannan) and yellow latex near the rind (aloin) are distinct parts used for different purposes. Gel is used topically for minor burns, while latex has laxative effects.",
-                       "safety":  "Yellow latex contains aloin, which causes diarrhea; avoid during pregnancy. Do not ingest gel that has not been separated from the latex.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "cleistocalyx-operculatus",
-                       "name":  "Cleistocalyx",
-                       "sci":  "Cleistocalyx operculatus",
-                       "alt":  "Cây vối, vối nụ",
-                       "family":  "Myrtaceae",
-                       "parts":  "Buds, leaves",
-                       "origin":  "Cultivated in Vietnam, especially in the north.",
-                       "trad":  "Traditionally prepared as a refreshing drink for cooling and digestion.",
-                       "effects":  [
-                                       "cm",
-                                       "ha"
-                                   ],
-                       "compounds":  [
-                                         "cardamonin"
-                                     ],
-                       "art":  "The buds contain chalcones such as cardamonin. Initial studies of blood lipids and glucose are mainly in animals.",
-                       "safety":  "Long-term safety data are limited. Use caution with blood-glucose-lowering medicines.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "plantago-major",
-                       "name":  "Broadleaf plantain",
-                       "sci":  "Plantago major",
-                       "alt":  "Xa tiền thảo, plantain",
-                       "family":  "Plantaginaceae",
-                       "parts":  "Leaves, seeds",
-                       "origin":  "Grows wild throughout Vietnam.",
-                       "trad":  "Traditionally used to increase urination, soothe cough, or apply to wounds.",
-                       "effects":  [
-                                       "ho",
-                                       "lt",
-                                       "kv"
-                                   ],
-                       "compounds":  [
-                                         "aucubin"
-                                     ],
-                       "art":  "The leaves contain aucubin and plantamajoside, studied for anti-inflammatory activity. Distinguish broadleaf plantain (Plantago major) from psyllium husk (Plantago ovata), used as a laxative.",
-                       "safety":  "Pregnancy safety data are insufficient. People allergic to grass pollen may react.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "zea-mays-silk",
-                       "name":  "Corn silk",
-                       "sci":  "Zea mays (râu bắp)",
-                       "alt":  "Ngọc mễ tu, corn silk",
-                       "family":  "Poaceae",
-                       "parts":  "Corn silk (styles)",
-                       "origin":  "A by-product of corn grown throughout Vietnam.",
-                       "trad":  "Traditionally prepared as a drink to increase urination or for urinary stones.",
-                       "effects":  [
-                                       "lt"
-                                   ],
-                       "compounds":  [
-                                         "maysin"
-                                     ],
-                       "art":  "Corn silk contains flavonoids such as maysin. Diuretic use is common in folk practice, but clinical data are very limited.",
-                       "safety":  "Long-term use with diuretics may lower potassium. Use caution with blood-glucose- or blood-pressure-lowering medicines.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "desmodium-styracifolium",
-                       "name":  "Desmodium styracifolium",
-                       "sci":  "Desmodium styracifolium",
-                       "alt":  "Đồng tiền lông",
-                       "family":  "Fabaceae",
-                       "parts":  "Aerial parts",
-                       "origin":  "Grows in hilly areas of Vietnam and southern China.",
-                       "trad":  "Traditionally used for urinary stones or painful urination.",
-                       "effects":  [
-                                       "lt"
-                                   ],
-                       "compounds":  [
-                                         "fcg"
-                                     ],
-                       "art":  "The plant contains flavonoid C-glycosides and is included in some products for urinary stones. Small clinical studies have been reported.",
-                       "safety":  "Do not self-treat renal colic or blood in urine; seek medical care. Use caution during pregnancy.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "ampelopsis-cantoniensis",
-                       "name":  "Ampelopsis tea vine",
-                       "sci":  "Ampelopsis cantoniensis",
-                       "alt":  "Chè dây, Ampelopsis grossedentata",
-                       "family":  "Vitaceae",
-                       "parts":  "Leaves, shoots",
-                       "origin":  "Grows in mountainous areas of northern Vietnam and southern China.",
-                       "trad":  "Traditionally prepared as a drink for stomach complaints and cooling.",
-                       "effects":  [
-                                       "td",
-                                       "gan",
-                                       "ox"
-                                   ],
-                       "compounds":  [
-                                         "dhm"
-                                     ],
-                       "art":  "The leaves are rich in dihydromyricetin, studied for antioxidant activity and liver protection. Human data are limited.",
-                       "safety":  "Pregnancy safety data are insufficient.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "momordica-cochinchinensis",
-                       "name":  "Gac",
-                       "sci":  "Momordica cochinchinensis",
-                       "alt":  "Mộc miết",
-                       "family":  "Cucurbitaceae",
-                       "parts":  "Seed aril, seeds",
-                       "origin":  "Cultivated in Vietnam and Southeast Asia.",
-                       "trad":  "Used in sticky rice dishes and traditionally for eye health.",
-                       "effects":  [
-                                       "ox"
-                                   ],
-                       "compounds":  [
-                                         "lycopene"
-                                     ],
-                       "art":  "Gac aril is among the plant foods richest in lycopene and beta-carotene. These are antioxidant carotenoids; specific health benefits in humans need further study.",
-                       "safety":  "Gac seeds (mộc miết tử) are toxic in traditional medicine and should not be eaten.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "chrysanthemum-morifolium",
-                       "name":  "Chrysanthemum",
-                       "sci":  "Chrysanthemum morifolium",
-                       "alt":  "Hoa cúc vàng",
-                       "family":  "Asteraceae",
-                       "parts":  "Flowers",
-                       "origin":  "Native to East Asia and cultivated in Vietnam.",
-                       "trad":  "Traditionally steeped as tea for cooling, eye comfort, or headache.",
-                       "effects":  [
-                                       "ha",
-                                       "kv"
-                                   ],
-                       "compounds":  [
-                                         "luteolin",
-                                         "apigenin"
-                                     ],
-                       "art":  "The flowers contain luteolin and apigenin, two flavones studied for antioxidant and anti-inflammatory activity.",
-                       "safety":  "People allergic to the daisy family may react.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "panax-notoginseng",
-                       "name":  "Notoginseng",
-                       "sci":  "Panax notoginseng",
-                       "alt":  "Sâm tam thất",
-                       "family":  "Araliaceae",
-                       "parts":  "Tubers, flowers",
-                       "origin":  "Native to Yunnan and cultivated in high-altitude areas of northern Vietnam.",
-                       "trad":  "Traditionally used for bleeding, bruising, and recovery after injury or childbirth.",
-                       "effects":  [
-                                       "tm",
-                                       "da"
-                                   ],
-                       "compounds":  [
-                                         "notoginsenoside"
-                                     ],
-                       "art":  "Notoginseng contains dammarane saponins such as notoginsenoside R1. It has long been used in traditional medicine for bleeding and bruising; cardiovascular studies vary in quality.",
-                       "safety":  "May interact with anticoagulant medicines. Use caution during pregnancy.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "cinnamomum-cassia",
-                       "name":  "Cassia cinnamon",
-                       "sci":  "Cinnamomum cassia",
-                       "alt":  "Quế bì",
-                       "family":  "Lauraceae",
-                       "parts":  "Stem bark",
-                       "origin":  "Cultivated in several mountainous provinces of Vietnam.",
-                       "trad":  "Used as a seasoning and traditionally for abdominal coldness or bloating.",
-                       "effects":  [
-                                       "cm",
-                                       "td",
-                                       "kk"
-                                   ],
-                       "compounds":  [
-                                         "cinnamaldehyde"
-                                     ],
-                       "art":  "Cinnamaldehyde gives cinnamon its characteristic aroma and has antibacterial activity in vitro. A few small trials suggest a possible mild effect on blood glucose, but results are inconsistent.",
-                       "safety":  "Cassia cinnamon contains coumarin; high intake over long periods may affect the liver.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "illicium-verum",
-                       "name":  "Star anise",
-                       "sci":  "Illicium verum",
-                       "alt":  "Đại hồi, star anise",
-                       "family":  "Schisandraceae",
-                       "parts":  "Fruit",
-                       "origin":  "Cultivated mainly in Vietnam’s northern border provinces.",
-                       "trad":  "Used as a seasoning and traditionally for bloating or cough.",
-                       "effects":  [
-                                       "td",
-                                       "ho"
-                                   ],
-                       "compounds":  [
-                                         "anethole"
-                                     ],
-                       "art":  "Star anise contains anethole, which provides its aroma. It is also a source of shikimic acid used to manufacture the influenza medicine oseltamivir.",
-                       "safety":  "Do not confuse star anise with toxic Japanese star anise (Illicium anisatum). Do not give star-anise tea to infants.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "piper-nigrum",
-                       "name":  "Black pepper",
-                       "sci":  "Piper nigrum",
-                       "alt":  "Hồ tiêu, black pepper",
-                       "family":  "Piperaceae",
-                       "parts":  "Fruit",
-                       "origin":  "Widely cultivated in the Central Highlands and southeastern Vietnam.",
-                       "trad":  "Used as a seasoning and traditionally for abdominal coldness or cough.",
-                       "effects":  [
-                                       "td"
-                                   ],
-                       "compounds":  [
-                                         "piperine"
-                                     ],
-                       "art":  "Piperine gives black pepper its pungency and may increase absorption of other substances, such as curcumin, by inhibiting drug-metabolizing enzymes.",
-                       "safety":  "Piperine may increase blood levels of some medicines. Use caution with drugs that have a narrow therapeutic range.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "portulaca-oleracea",
-                       "name":  "Common purslane",
-                       "sci":  "Portulaca oleracea",
-                       "alt":  "Mã xỉ hiện",
-                       "family":  "Portulacaceae",
-                       "parts":  "Whole plant",
-                       "origin":  "Grows wild throughout Vietnam.",
-                       "trad":  "Eaten as a food; traditionally used for dysentery, skin boils, or cooling.",
-                       "effects":  [
-                                       "kv"
-                                   ],
-                       "compounds":  [
-                                         "ala"
-                                     ],
-                       "art":  "Purslane is a leafy green rich in alpha-linolenic acid (omega-3) compared with many vegetables, and also contains flavonoids. Anti-inflammatory research is in cell and animal models.",
-                       "safety":  "Contains oxalate; use caution with calcium oxalate kidney stones. Use caution during pregnancy.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "camellia-sinensis",
-                       "name":  "Green tea",
-                       "sci":  "Camellia sinensis",
-                       "alt":  "Chè xanh, green tea",
-                       "family":  "Theaceae",
-                       "parts":  "Leaves, buds",
-                       "origin":  "Widely cultivated in Thái Nguyên, Lâm Đồng, and Hà Giang.",
-                       "trad":  "Traditionally consumed as a daily infusion.",
-                       "effects":  [
-                                       "ox",
-                                       "tm"
-                                   ],
-                       "compounds":  [
-                                         "egcg"
-                                     ],
-                       "art":  "EGCG is the main catechin in green tea and is widely studied for antioxidant activity. Human findings on cardiovascular effects and weight loss are small and inconsistent.",
-                       "safety":  "Contains caffeine. High-dose EGCG extracts have been linked to rare liver injury. Drinking tea with meals can reduce iron absorption.",
-                       "studies":  [
-
-                                   ]
-                   },
-                   {
-                       "id":  "syzygium-aromaticum",
-                       "name":  "Clove",
-                       "sci":  "Syzygium aromaticum",
-                       "alt":  "Clove",
-                       "family":  "Myrtaceae",
-                       "parts":  "Flower buds",
-                       "origin":  "Native to Indonesia; the medicinal material is mainly imported.",
-                       "trad":  "Traditionally used for toothache and abdominal coldness.",
-                       "effects":  [
-                                       "kk"
-                                   ],
-                       "compounds":  [
-                                         "eugenol"
-                                     ],
-                       "art":  "Clove essential oil contains 70-90% eugenol, used in dentistry as an analgesic and antiseptic.",
-                       "safety":  "Eugenol may irritate mucous membranes and cause liver toxicity at high doses, especially in children. Do not swallow undiluted essential oil.",
-                       "studies":  [
-
-                                   ]
-                   }
-               ]
+  "effects": [
+    {
+      "id": "kv",
+      "name": "Anti-inflammatory",
+      "description": "Plants and compounds studied for their potential to reduce inflammatory responses."
+    },
+    {
+      "id": "an",
+      "name": "Calming / sleep",
+      "description": "Plants used traditionally for relaxation and sleep; most evidence remains preclinical."
+    },
+    {
+      "id": "gan",
+      "name": "Liver / biliary support",
+      "description": "Plants studied for liver-cell protection or stimulation of bile secretion."
+    },
+    {
+      "id": "td",
+      "name": "Digestion",
+      "description": "Plants used for bloating, nausea, digestive complaints, or constipation."
+    },
+    {
+      "id": "da",
+      "name": "Wound healing / skin",
+      "description": "Plants used topically or studied for wound healing and skin care."
+    },
+    {
+      "id": "ho",
+      "name": "Respiratory",
+      "description": "Plants used for cough, sore throat, and mild respiratory symptoms."
+    },
+    {
+      "id": "kk",
+      "name": "Antimicrobial",
+      "description": "Activity against bacteria, fungi, or parasites, often demonstrated in vitro."
+    },
+    {
+      "id": "cm",
+      "name": "Metabolism (blood glucose, lipids)",
+      "description": "Plants studied for effects on blood glucose or blood lipids."
+    },
+    {
+      "id": "tm",
+      "name": "Cardiovascular / vascular",
+      "description": "Plants studied for blood pressure, capillaries, or circulation."
+    },
+    {
+      "id": "lt",
+      "name": "Diuretic / urinary",
+      "description": "Plants used to increase urine output or support the urinary tract."
+    },
+    {
+      "id": "tl",
+      "name": "Restorative / adaptogenic",
+      "description": "Plants used traditionally for nourishment or fatigue; clinical evidence remains limited."
+    },
+    {
+      "id": "ha",
+      "name": "Cooling / fever",
+      "description": "Plants used traditionally for fever or a sensation of excess heat."
+    },
+    {
+      "id": "ox",
+      "name": "Antioxidant",
+      "description": "Plants rich in antioxidants; specific benefits in humans require further study."
+    }
+  ],
+  "compounds": [
+    {
+      "id": "curcumin",
+      "name": "Curcumin",
+      "cls": "Curcuminoid (polyphenol)",
+      "mech": "Inhibits the NF-κB pathway and COX-2 enzyme in cell models. Oral bioavailability is low."
+    },
+    {
+      "id": "phyllanthin",
+      "name": "Phyllanthin",
+      "cls": "Lignan",
+      "mech": "Protects liver cells from chemical injury in animal models."
+    },
+    {
+      "id": "neferine",
+      "name": "Neferine / Liensinine",
+      "cls": "Alkaloid (benzylisoquinoline)",
+      "mech": "Affects the central nervous system in preclinical studies. The mechanism is unclear."
+    },
+    {
+      "id": "vitexin",
+      "name": "Vitexin",
+      "cls": "Flavonoid C-glycoside",
+      "mech": "Thought to regulate the GABA system. Evidence is mainly from P. incarnata."
+    },
+    {
+      "id": "cynarin",
+      "name": "Cynarin",
+      "cls": "Polyphenol (dicaffeoylquinic acid)",
+      "mech": "Stimulates bile secretion in experimental models."
+    },
+    {
+      "id": "chlorogenic",
+      "name": "Chlorogenic acid",
+      "cls": "Polyphenol (caffeoylquinic acid)",
+      "mech": "Antioxidant and anti-inflammatory in experimental models."
+    },
+    {
+      "id": "gingerol",
+      "name": "Gingerol / Shogaol",
+      "cls": "Phenolic",
+      "mech": "Acts on serotonin 5-HT3 receptors and inflammatory mediators in experimental models."
+    },
+    {
+      "id": "asiaticoside",
+      "name": "Asiaticoside / Madecassoside",
+      "cls": "Triterpenoid saponin",
+      "mech": "Stimulates type I collagen synthesis in cultured fibroblasts."
+    },
+    {
+      "id": "allicin",
+      "name": "Allicin",
+      "cls": "Organosulfur compound",
+      "mech": "Reacts with thiol groups in microbial proteins in vitro."
+    },
+    {
+      "id": "rosmarinic",
+      "name": "Acid rosmarinic",
+      "cls": "Polyphenol",
+      "mech": "Antioxidant activity and reduced inflammatory mediators in cell models."
+    },
+    {
+      "id": "houttuynin",
+      "name": "Houttuynin",
+      "cls": "Long-chain carbonyl compound",
+      "mech": "Has antibacterial activity in vitro; it is unstable and readily metabolized."
+    },
+    {
+      "id": "quercetin",
+      "name": "Quercetin",
+      "cls": "Flavonoid (flavonol)",
+      "mech": "Antioxidant activity and modulation of some inflammation-related enzymes in cell models."
+    },
+    {
+      "id": "citral",
+      "name": "Citral",
+      "cls": "Monoterpene aldehyde",
+      "mech": "Has antifungal and antibacterial activity in vitro."
+    },
+    {
+      "id": "menthol",
+      "name": "Menthol",
+      "cls": "Monoterpene alcohol",
+      "mech": "Activates the cold-sensing channel TRPM8, producing a cooling sensation; relaxes intestinal smooth muscle in experimental models."
+    },
+    {
+      "id": "patchoulol",
+      "name": "Patchoulol",
+      "cls": "Sesquiterpene alcohol",
+      "mech": "A characteristic compound in patchouli essential oil; studied at the preclinical level."
+    },
+    {
+      "id": "glycyrrhizin",
+      "name": "Glycyrrhizin",
+      "cls": "Triterpenoid saponin",
+      "mech": "Anti-inflammatory activity in experimental models; inhibits 11β-HSD2 and may raise blood pressure."
+    },
+    {
+      "id": "rutin",
+      "name": "Rutin",
+      "cls": "Flavonoid glycoside",
+      "mech": "Studied for capillary support and antioxidant activity."
+    },
+    {
+      "id": "saponin_dl",
+      "name": "Saponin đinh lăng",
+      "cls": "Triterpenoid saponins from đinh lăng",
+      "mech": "Studied in animals for fatigue resistance and memory; the mechanism is unclear."
+    },
+    {
+      "id": "majonoside",
+      "name": "Majonoside R2",
+      "cls": "Ocotillol-type saponin",
+      "mech": "An ocotillol-type saponin characteristic of Vietnamese ginseng, studied for stress-related effects in animals."
+    },
+    {
+      "id": "luteolin",
+      "name": "Luteolin",
+      "cls": "Flavonoid (flavone)",
+      "mech": "Antioxidant activity and reduced inflammatory mediator expression in cell models."
+    },
+    {
+      "id": "andrographolide",
+      "name": "Andrographolide",
+      "cls": "Diterpenoid lactone",
+      "mech": "Inhibits NF-κB and has antiviral activity in experimental models."
+    },
+    {
+      "id": "charantin",
+      "name": "Charantin / polypeptide-p",
+      "cls": "Steroidal saponin and peptide",
+      "mech": "Has insulin-like effects in animal models."
+    },
+    {
+      "id": "gymnemic",
+      "name": "Acid gymnemic",
+      "cls": "Triterpenoid saponin",
+      "mech": "Reduces sweet-taste perception and intestinal glucose absorption in experimental models."
+    },
+    {
+      "id": "scopoletin",
+      "name": "Scopoletin",
+      "cls": "Coumarin",
+      "mech": "Anti-inflammatory and antioxidant activity in cell models."
+    },
+    {
+      "id": "tsg",
+      "name": "TSG (stilbene glycoside)",
+      "cls": "Stilbene glycoside",
+      "mech": "Antioxidant activity in experimental models."
+    },
+    {
+      "id": "anthraquinone",
+      "name": "Anthraquinone (emodin, chrysophanol)",
+      "cls": "Anthraquinones (emodin, chrysophanol)",
+      "mech": "Stimulates intestinal motility and has a laxative effect."
+    },
+    {
+      "id": "solasodine",
+      "name": "Solasodine",
+      "cls": "Steroidal alkaloid",
+      "mech": "Studied for liver protection and cytotoxicity; may be toxic at high doses."
+    },
+    {
+      "id": "cineole",
+      "name": "Cineole",
+      "cls": "Monoterpene (essential oil)",
+      "mech": "An essential-oil component with mild anti-inflammatory activity in experimental models."
+    },
+    {
+      "id": "artemisinin",
+      "name": "Artemisinin",
+      "cls": "Sesquiterpene lactone (endoperoxide bridge)",
+      "mech": "Its endoperoxide bridge generates free radicals in the presence of iron in malaria parasites, killing the parasites."
+    },
+    {
+      "id": "lactucin",
+      "name": "Lactucin",
+      "cls": "Sesquiterpene lactone",
+      "mech": "A bitter compound studied for anti-inflammatory activity in cell models."
+    },
+    {
+      "id": "monotropein",
+      "name": "Monotropein",
+      "cls": "Iridoid glycoside",
+      "mech": "Studied in animals for effects on bones and joints."
+    },
+    {
+      "id": "eugenol",
+      "name": "Eugenol",
+      "cls": "Phenylpropanoid",
+      "mech": "Has antibacterial activity and local anesthetic effects; may irritate mucous membranes at high concentrations."
+    },
+    {
+      "id": "wedelolactone",
+      "name": "Wedelolactone",
+      "cls": "Coumestan",
+      "mech": "Inhibits IKK and reduces inflammatory signaling in cell models."
+    },
+    {
+      "id": "piperamide",
+      "name": "Piperamide",
+      "cls": "Alkaloid amide",
+      "mech": "Anti-inflammatory and analgesic activity in experimental models."
+    },
+    {
+      "id": "hydroxychavicol",
+      "name": "Hydroxychavicol",
+      "cls": "Phenol",
+      "mech": "Antibacterial and antifungal activity in vitro."
+    },
+    {
+      "id": "leonurine",
+      "name": "Leonurine",
+      "cls": "Alkaloid",
+      "mech": "Affects blood vessels and uterine contractions in experimental models."
+    },
+    {
+      "id": "acemannan",
+      "name": "Acemannan",
+      "cls": "Polysaccharide (aloe gel)",
+      "mech": "Studied for stimulation of wound healing in experimental models."
+    },
+    {
+      "id": "aloin",
+      "name": "Aloin",
+      "cls": "Anthrone C-glycoside",
+      "mech": "Stimulates intestinal motility and has a strong laxative effect."
+    },
+    {
+      "id": "cardamonin",
+      "name": "Cardamonin",
+      "cls": "Chalcone",
+      "mech": "Anti-inflammatory and antioxidant activity in cell models."
+    },
+    {
+      "id": "aucubin",
+      "name": "Aucubin",
+      "cls": "Iridoid glycoside",
+      "mech": "Anti-inflammatory activity in experimental models."
+    },
+    {
+      "id": "maysin",
+      "name": "Maysin",
+      "cls": "Flavone C-glycoside",
+      "mech": "A flavonoid characteristic of corn silk; its diuretic effects require further study."
+    },
+    {
+      "id": "fcg",
+      "name": "Flavonoid C-glycoside (vd. schaftoside)",
+      "cls": "Flavonoid C-glycoside",
+      "mech": "Studied for effects on urinary stones in animal models."
+    },
+    {
+      "id": "dhm",
+      "name": "Dihydromyricetin",
+      "cls": "Flavanonol",
+      "mech": "Antioxidant activity and liver protection in animal models."
+    },
+    {
+      "id": "lycopene",
+      "name": "Lycopene / beta-carotene",
+      "cls": "Carotenoid",
+      "mech": "Antioxidant activity; beta-carotene is a vitamin A precursor."
+    },
+    {
+      "id": "apigenin",
+      "name": "Apigenin",
+      "cls": "Flavonoid (flavone)",
+      "mech": "Antioxidant and anti-inflammatory activity in cell models."
+    },
+    {
+      "id": "notoginsenoside",
+      "name": "Notoginsenoside R1",
+      "cls": "Dammarane saponin",
+      "mech": "Studied for effects on blood coagulation and blood vessels in experimental models."
+    },
+    {
+      "id": "cinnamaldehyde",
+      "name": "Cinnamaldehyde",
+      "cls": "Phenylpropanoid aldehyde",
+      "mech": "Antibacterial activity in vitro; may have a mild effect on insulin sensitivity."
+    },
+    {
+      "id": "anethole",
+      "name": "Anethole",
+      "cls": "Phenylpropanoid",
+      "mech": "The compound responsible for star anise aroma; has antibacterial activity in vitro."
+    },
+    {
+      "id": "piperine",
+      "name": "Piperine",
+      "cls": "Alkaloid amide",
+      "mech": "Inhibits drug-metabolizing enzymes and may increase the absorption of some substances."
+    },
+    {
+      "id": "ala",
+      "name": "Acid alpha-linolenic",
+      "cls": "Alpha-linolenic acid",
+      "mech": "A precursor of EPA and DHA in the body; conversion is limited."
+    },
+    {
+      "id": "egcg",
+      "name": "EGCG",
+      "cls": "Catechin",
+      "mech": "Strong antioxidant activity in vitro; inhibits some enzymes in cell models."
+    }
+  ],
+  "plants": [
+    {
+      "id": "curcuma-longa",
+      "name": "Turmeric",
+      "sci": "Curcuma longa",
+      "alt": "Nghệ, turmeric",
+      "family": "Zingiberaceae",
+      "parts": "Rhizome",
+      "origin": "Native to South Asia and widely cultivated throughout Vietnam.",
+      "trad": "Traditionally used for stomach pain, wound care, and postpartum recovery.",
+      "effects": [
+        "kv",
+        "td"
+      ],
+      "compounds": [
+        "curcumin"
+      ],
+      "art": "The yellow color of turmeric comes from curcuminoids, of which curcumin is the most studied. Cell experiments show reduced inflammatory signaling, but curcumin is poorly absorbed and human results are inconsistent.",
+      "safety": "High doses or prolonged use may cause digestive discomfort. Use caution with gallstones or anticoagulant medicines.",
+      "studies": [
+        {
+          "t": "Curcumin: a review of its effects on human health",
+          "a": "Hewlings & Kalman",
+          "y": 2017,
+          "j": "Foods",
+          "type": "review",
+          "verification": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "phyllanthus-urinaria",
+      "name": "Chamber bitter",
+      "sci": "Phyllanthus urinaria",
+      "alt": "Chó đẻ răng cưa",
+      "family": "Phyllanthaceae",
+      "parts": "Whole plant",
+      "origin": "Grows wild in tropical Asia and is common in Vietnam.",
+      "trad": "Traditionally used for cooling the liver and increasing urination.",
+      "effects": [
+        "gan"
+      ],
+      "compounds": [
+        "phyllanthin"
+      ],
+      "art": "Lignans such as phyllanthin are among the most discussed compounds in Phyllanthus. Liver-protective findings come mainly from animal models and do not establish the plant as a treatment for liver disease.",
+      "safety": "Safety in pregnancy and breastfeeding is not well established. People with liver disease should consult a clinician and should not replace prescribed treatment.",
+      "studies": []
+    },
+    {
+      "id": "nelumbo-nucifera",
+      "name": "Lotus plumule",
+      "sci": "Nelumbo nucifera",
+      "alt": "Liên tâm, lotus plumule",
+      "family": "Nelumbonaceae",
+      "parts": "Lotus plumule",
+      "origin": "Cultivated in ponds and lakes throughout Vietnam.",
+      "trad": "Traditionally steeped as a tea for relaxation and cooling.",
+      "effects": [
+        "an"
+      ],
+      "compounds": [
+        "neferine"
+      ],
+      "art": "Lotus plumules contain alkaloids such as neferine and liensinine. Sedative findings are mainly preclinical, and their role in sleep in humans requires further trials.",
+      "safety": "Considered cooling in traditional medicine. Use caution with low blood pressure or a cold digestive constitution.",
+      "studies": []
+    },
+    {
+      "id": "passiflora-foetida",
+      "name": "Wild passionflower",
+      "sci": "Passiflora foetida",
+      "alt": "Chùm bao, nhãn lồng",
+      "family": "Passifloraceae",
+      "parts": "Whole plant, aerial parts",
+      "origin": "Native to tropical America; grows wild in Vietnam.",
+      "trad": "Traditionally prepared as a drink for sleep and relaxation.",
+      "effects": [
+        "an"
+      ],
+      "compounds": [
+        "vitexin"
+      ],
+      "art": "Most clinical evidence for sedation in the Passiflora genus concerns P. incarnata. P. foetida is a different species with less data, so findings should not be directly transferred between species.",
+      "safety": "May cause drowsiness; use caution with sedatives. Avoid during pregnancy.",
+      "studies": [
+        {
+          "t": "Passiflora incarnata in neuropsychiatric disorders: a systematic review",
+          "a": "Janda et al.",
+          "y": 2020,
+          "j": "Nutrients",
+          "type": "systematic review (P. incarnata)",
+          "verification": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "cynara-scolymus",
+      "name": "Globe artichoke",
+      "sci": "Cynara scolymus",
+      "alt": "Atisô, artichoke",
+      "family": "Asteraceae",
+      "parts": "Leaves, flower heads",
+      "origin": "Native to the Mediterranean; widely cultivated in Đà Lạt and Sa Pa.",
+      "trad": "Traditionally prepared as a drink for cooling the liver and supporting bile flow.",
+      "effects": [
+        "gan",
+        "td"
+      ],
+      "compounds": [
+        "cynarin",
+        "chlorogenic"
+      ],
+      "art": "Artichoke leaves are rich in caffeoylquinic compounds such as cynarin and chlorogenic acid. These have been studied for stimulating bile secretion and supporting fat digestion.",
+      "safety": "Avoid with bile-duct obstruction or gallstones. People allergic to the daisy family may react.",
+      "studies": []
+    },
+    {
+      "id": "zingiber-officinale",
+      "name": "Ginger",
+      "sci": "Zingiber officinale",
+      "alt": "Sinh khương, ginger",
+      "family": "Zingiberaceae",
+      "parts": "Rhizome",
+      "origin": "Native to Southeast Asia and cultivated throughout the country.",
+      "trad": "Traditionally used for colds, nausea, or bloating.",
+      "effects": [
+        "kv",
+        "td"
+      ],
+      "compounds": [
+        "gingerol"
+      ],
+      "art": "Gingerol gives ginger its pungency and converts to shogaol when dried or cooked. Nausea is the area with the strongest clinical evidence for ginger.",
+      "safety": "High doses may cause heartburn. Use caution with anticoagulant medicines.",
+      "studies": [
+        {
+          "t": "A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting",
+          "a": "Viljoen et al.",
+          "y": 2014,
+          "j": "Nutrition Journal",
+          "type": "meta-analysis",
+          "verification": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "centella-asiatica",
+      "name": "Gotu kola",
+      "sci": "Centella asiatica",
+      "alt": "Tích tuyết thảo, gotu kola",
+      "family": "Apiaceae",
+      "parts": "Whole plant",
+      "origin": "Grows wild in damp areas throughout Vietnam.",
+      "trad": "Traditionally consumed for cooling and applied to support wound healing.",
+      "effects": [
+        "da",
+        "kv"
+      ],
+      "compounds": [
+        "asiaticoside"
+      ],
+      "art": "Gotu kola contains triterpenoid saponins such as asiaticoside and madecassoside. These are studied mainly for wound healing and skin care.",
+      "safety": "Considered cooling in traditional medicine; use caution during pregnancy. Rare reports link prolonged use of extracts with liver effects.",
+      "studies": [
+        {
+          "t": "Centella asiatica in cosmetology",
+          "a": "Bylka et al.",
+          "y": 2013,
+          "j": "Postępy Dermatologii i Alergologii",
+          "type": "review",
+          "verification": "unverified"
+        }
+      ]
+    },
+    {
+      "id": "allium-sativum",
+      "name": "Garlic",
+      "sci": "Allium sativum",
+      "alt": "Đại toán, garlic",
+      "family": "Amaryllidaceae",
+      "parts": "Bulb (cloves)",
+      "origin": "Native to Central Asia and cultivated throughout Vietnam.",
+      "trad": "Used in cooking and traditionally for colds and bloating.",
+      "effects": [
+        "kk",
+        "tm"
+      ],
+      "compounds": [
+        "allicin"
+      ],
+      "art": "Allicin forms when a garlic clove is crushed. This sulfur compound has antimicrobial activity in vitro. Effects on blood pressure and blood lipids have been studied in humans, but results are inconsistent.",
+      "safety": "May increase bleeding risk; use caution with anticoagulants or before surgery. Large amounts on an empty stomach may irritate the stomach.",
+      "studies": []
+    },
+    {
+      "id": "perilla-frutescens",
+      "name": "Perilla",
+      "sci": "Perilla frutescens",
+      "alt": "Tô diệp, perilla",
+      "family": "Lamiaceae",
+      "parts": "Leaves, seeds",
+      "origin": "Native to East Asia and grown as a vegetable in Vietnam.",
+      "trad": "Traditionally used for colds or cough; the leaves are often eaten with crab and fish.",
+      "effects": [
+        "ho",
+        "kv",
+        "td"
+      ],
+      "compounds": [
+        "rosmarinic"
+      ],
+      "art": "Perilla leaves contain rosmarinic acid and essential oil rich in perillaldehyde. Rosmarinic acid is studied for potential effects on inflammation and allergy, mainly in cell and animal models.",
+      "safety": "People allergic to the mint family may react. Do not drink undiluted perilla essential oil.",
+      "studies": []
+    },
+    {
+      "id": "houttuynia-cordata",
+      "name": "Fish mint",
+      "sci": "Houttuynia cordata",
+      "alt": "Rau giấp cá, fish mint",
+      "family": "Saururaceae",
+      "parts": "Whole plant, leaves",
+      "origin": "Grows in damp areas throughout Vietnam and East Asia.",
+      "trad": "Eaten raw or juiced; traditionally used for internal heat, skin boils, or hemorrhoids.",
+      "effects": [
+        "kv",
+        "kk",
+        "lt"
+      ],
+      "compounds": [
+        "houttuynin",
+        "quercetin"
+      ],
+      "art": "The characteristic fishy odor comes from houttuynin. The plant is studied for antibacterial and anti-inflammatory activity in vitro; human data are limited.",
+      "safety": "Allergic reactions have been reported with injected extracts. Long-term oral safety data are insufficient.",
+      "studies": []
+    },
+    {
+      "id": "cymbopogon-citratus",
+      "name": "Lemongrass",
+      "sci": "Cymbopogon citratus",
+      "alt": "Lemongrass",
+      "family": "Poaceae",
+      "parts": "Stems, leaves",
+      "origin": "Native to South Asia and widely cultivated in Vietnam.",
+      "trad": "Used in steam inhalation for colds, as a seasoning, and traditionally for bloating.",
+      "effects": [
+        "kk",
+        "td"
+      ],
+      "compounds": [
+        "citral"
+      ],
+      "art": "Lemongrass essential oil contains citral, which gives it a lemon scent and has antifungal and antibacterial activity in vitro.",
+      "safety": "Undiluted essential oil may irritate the skin. Use caution during pregnancy with amounts above those used in food.",
+      "studies": []
+    },
+    {
+      "id": "mentha-arvensis",
+      "name": "Field mint",
+      "sci": "Mentha arvensis",
+      "alt": "Bạc hà Á, field mint",
+      "family": "Lamiaceae",
+      "parts": "Leaves, aerial parts",
+      "origin": "Widely cultivated in Vietnam.",
+      "trad": "Traditionally used in steam inhalation for colds and for bloating or headache.",
+      "effects": [
+        "td",
+        "ho"
+      ],
+      "compounds": [
+        "menthol"
+      ],
+      "art": "Menthol activates the cold-sensing channel TRPM8, producing a cooling sensation. Peppermint oil has been studied for reducing irritable bowel syndrome symptoms.",
+      "safety": "May worsen gastric reflux. Do not apply menthol to young childrens faces because of the risk of laryngospasm.",
+      "studies": []
+    },
+    {
+      "id": "pogostemon-cablin",
+      "name": "Patchouli",
+      "sci": "Pogostemon cablin",
+      "alt": "Quảng hoắc hương, patchouli",
+      "family": "Lamiaceae",
+      "parts": "Aerial parts",
+      "origin": "Native to Southeast Asia and cultivated in Vietnam.",
+      "trad": "Traditionally used for bloating, nausea, or heat exhaustion.",
+      "effects": [
+        "td",
+        "kk"
+      ],
+      "compounds": [
+        "patchoulol"
+      ],
+      "art": "The essential oil contains patchoulol, a characteristic sesquiterpene. Studies of digestive and antimicrobial effects are mainly preclinical.",
+      "safety": "Safety in pregnancy and breastfeeding is not well established.",
+      "studies": []
+    },
+    {
+      "id": "glycyrrhiza-uralensis",
+      "name": "Chinese licorice",
+      "sci": "Glycyrrhiza uralensis",
+      "alt": "Cam thảo bắc, licorice",
+      "family": "Fabaceae",
+      "parts": "Roots, rhizomes",
+      "origin": "Native to Northeast Asia; commonly imported as a medicinal material in Vietnam.",
+      "trad": "Traditionally used to soothe cough, harmonize herbal formulas, and ease stomach pain.",
+      "effects": [
+        "ho",
+        "kv",
+        "td"
+      ],
+      "compounds": [
+        "glycyrrhizin"
+      ],
+      "art": "Glycyrrhizin is many times sweeter than sugar and is studied for anti-inflammatory effects. The same compound is responsible for licorices most notable adverse effects.",
+      "safety": "High doses or prolonged use may cause high blood pressure and low potassium. Avoid with heart or kidney disease or uncontrolled hypertension.",
+      "studies": []
+    },
+    {
+      "id": "styphnolobium-japonicum",
+      "name": "Japanese pagoda tree",
+      "sci": "Styphnolobium japonicum",
+      "alt": "Hòe, Sophora japonica",
+      "family": "Fabaceae",
+      "parts": "Flower buds",
+      "origin": "Native to East Asia and cultivated in northern Vietnam.",
+      "trad": "Flower buds are roasted and steeped as tea; traditionally used for bleeding or high blood pressure.",
+      "effects": [
+        "tm"
+      ],
+      "compounds": [
+        "rutin",
+        "quercetin"
+      ],
+      "art": "Pagoda-tree buds are a well-known natural source of rutin. Rutin is studied for possible capillary-supporting effects, but human evidence is limited.",
+      "safety": "May interact with anticoagulant medicines. Use caution with low blood pressure.",
+      "studies": []
+    },
+    {
+      "id": "polyscias-fruticosa",
+      "name": "Ming aralia",
+      "sci": "Polyscias fruticosa",
+      "alt": "Nam dương sâm",
+      "family": "Araliaceae",
+      "parts": "Roots, leaves",
+      "origin": "Native to the Pacific islands and cultivated throughout Vietnam.",
+      "trad": "Traditionally used as a restorative, for fatigue, and to support lactation.",
+      "effects": [
+        "tl"
+      ],
+      "compounds": [
+        "saponin_dl"
+      ],
+      "art": "Ming aralia roots contain triterpenoid saponins, compounds also found in the ginseng family. Studies of fatigue resistance and memory are mainly in animals.",
+      "safety": "High doses may cause digestive discomfort. Safety during pregnancy is not well established.",
+      "studies": []
+    },
+    {
+      "id": "panax-vietnamensis",
+      "name": "Vietnamese ginseng",
+      "sci": "Panax vietnamensis",
+      "alt": "Sâm Việt Nam",
+      "family": "Araliaceae",
+      "parts": "Tuberous roots",
+      "origin": "Endemic to the Ngọc Linh mountains in Kon Tum and Quảng Nam; conserved and cultivated there.",
+      "trad": "Used by the Xe Dang people as a traditional restorative.",
+      "effects": [
+        "tl"
+      ],
+      "compounds": [
+        "majonoside"
+      ],
+      "art": "Vietnamese ginseng is notable for ocotillol-type saponins such as majonoside R2, which are uncommon in other ginseng species. Pharmacological evidence is mainly preclinical.",
+      "safety": "The high price creates a risk of counterfeit products. Use caution with anticoagulants or diabetes medicines.",
+      "studies": []
+    },
+    {
+      "id": "lonicera-japonica",
+      "name": "Japanese honeysuckle",
+      "sci": "Lonicera japonica",
+      "alt": "Nhẫn đông",
+      "family": "Caprifoliaceae",
+      "parts": "Flower buds, leafy branches",
+      "origin": "Native to East Asia; grows and is cultivated in northern mountainous areas.",
+      "trad": "Traditionally used for internal heat, skin boils, or fever.",
+      "effects": [
+        "kv",
+        "kk",
+        "ha"
+      ],
+      "compounds": [
+        "chlorogenic",
+        "luteolin"
+      ],
+      "art": "The flowers contain chlorogenic acid and luteolin. The plant has a long history of traditional use in East Asian medicine for heat conditions and has been studied for anti-inflammatory and antimicrobial activity in vitro.",
+      "safety": "Use caution according to traditional medicine for people with a cold digestive constitution, such as those prone to diarrhea or abdominal chill.",
+      "studies": []
+    },
+    {
+      "id": "andrographis-paniculata",
+      "name": "Green chiretta",
+      "sci": "Andrographis paniculata",
+      "alt": "Khổ đảm thảo, king of bitters",
+      "family": "Acanthaceae",
+      "parts": "Aerial parts",
+      "origin": "Native to South Asia and cultivated in Vietnam.",
+      "trad": "Traditionally used for fever, sore throat, or diarrhea.",
+      "effects": [
+        "kv",
+        "kk",
+        "ho",
+        "ha"
+      ],
+      "compounds": [
+        "andrographolide"
+      ],
+      "art": "Andrographolide is a bitter diterpenoid characteristic of the plant. It is among the few medicinal herbs studied in clinical trials for upper respiratory infections, but study quality varies.",
+      "safety": "May cause allergic reactions; severe reactions to injectable forms are rare. Use caution during pregnancy. Stop use and seek care for rash or difficulty breathing.",
+      "studies": []
+    },
+    {
+      "id": "momordica-charantia",
+      "name": "Bitter melon",
+      "sci": "Momordica charantia",
+      "alt": "Khổ qua, bitter melon",
+      "family": "Cucurbitaceae",
+      "parts": "Fruit",
+      "origin": "Widely cultivated in Vietnam.",
+      "trad": "Eaten for cooling and traditionally used by people with diabetes.",
+      "effects": [
+        "cm"
+      ],
+      "compounds": [
+        "charantin"
+      ],
+      "art": "The fruit contains compounds such as charantin and polypeptide-p, which have insulin-like effects in animal models. Human trial results are inconsistent.",
+      "safety": "May cause excessive blood-glucose lowering when used with diabetes medicines. Avoid seeds and concentrated extracts during pregnancy.",
+      "studies": []
+    },
+    {
+      "id": "gymnema-sylvestre",
+      "name": "Gymnema",
+      "sci": "Gymnema sylvestre",
+      "alt": "Gurmar",
+      "family": "Apocynaceae",
+      "parts": "Leaves",
+      "origin": "Grows in tropical Asian forests and is found in Vietnam.",
+      "trad": "Used in Indian traditional medicine to support blood-glucose control.",
+      "effects": [
+        "cm"
+      ],
+      "compounds": [
+        "gymnemic"
+      ],
+      "art": "Gymnemic acid reduces sweet-taste perception on the tongue and glucose absorption in the intestine in experimental models. A few small clinical trials have been conducted.",
+      "safety": "May lower blood glucose when used with diabetes medicines.",
+      "studies": []
+    },
+    {
+      "id": "morinda-citrifolia",
+      "name": "Noni",
+      "sci": "Morinda citrifolia",
+      "alt": "Noni",
+      "family": "Rubiaceae",
+      "parts": "Fruits, leaves, roots",
+      "origin": "Native to Southeast Asia and Polynesia; grows widely in Vietnam.",
+      "trad": "Fruit and roots are traditionally used for joint pain and high blood pressure.",
+      "effects": [
+        "kv"
+      ],
+      "compounds": [
+        "scopoletin"
+      ],
+      "art": "Noni contains scopoletin, a coumarin studied for potential anti-inflammatory effects. Noni juice is widely sold, but human evidence is limited.",
+      "safety": "Noni juice is high in potassium. Rare liver-injury reports exist; use caution with kidney or liver disease.",
+      "studies": []
+    },
+    {
+      "id": "reynoutria-multiflora",
+      "name": "Fo-ti",
+      "sci": "Reynoutria multiflora",
+      "alt": "Hà thủ ô, Fallopia multiflora",
+      "family": "Polygonaceae",
+      "parts": "Tuberous roots",
+      "origin": "Grows in mountainous areas of northern Vietnam and China.",
+      "trad": "Traditionally used as a restorative and for hair care.",
+      "effects": [
+        "tl",
+        "ox"
+      ],
+      "compounds": [
+        "tsg",
+        "anthraquinone"
+      ],
+      "art": "The roots contain stilbene glycosides (TSG) and anthraquinones. TSG is studied for antioxidant activity, but many reports link the plant to liver injury.",
+      "safety": "Many reports associate fo-ti with liver injury, especially in unprocessed forms. Do not self-use with liver disease; medical monitoring is needed.",
+      "studies": []
+    },
+    {
+      "id": "senna-tora",
+      "name": "Sickle senna",
+      "sci": "Senna tora",
+      "alt": "Muồng ngủ, Cassia tora",
+      "family": "Fabaceae",
+      "parts": "Seeds",
+      "origin": "Grows wild throughout Vietnam.",
+      "trad": "Seeds are roasted and steeped as tea; traditionally used for constipation and cooling the liver.",
+      "effects": [
+        "td"
+      ],
+      "compounds": [
+        "anthraquinone"
+      ],
+      "art": "The seeds contain anthraquinones such as emodin and chrysophanol, compounds that stimulate intestinal motility and explain the laxative effect.",
+      "safety": "Long-term use may cause laxative dependence and potassium loss. Do not use during pregnancy.",
+      "studies": []
+    },
+    {
+      "id": "solanum-procumbens",
+      "name": "Solanum procumbens",
+      "sci": "Solanum procumbens",
+      "alt": "Cà gai dại",
+      "family": "Solanaceae",
+      "parts": "Whole plant",
+      "origin": "Grows wild in northern and central Vietnam.",
+      "trad": "Traditionally used for cooling the liver and detoxification.",
+      "effects": [
+        "gan"
+      ],
+      "compounds": [
+        "solasodine"
+      ],
+      "art": "The plant has been studied in Vietnam for liver support and contains steroidal alkaloids such as solasodine. High-quality clinical evidence is lacking.",
+      "safety": "Steroidal alkaloids may be toxic at high doses. Do not replace prescribed liver-disease treatment.",
+      "studies": []
+    },
+    {
+      "id": "artemisia-vulgaris",
+      "name": "Mugwort",
+      "sci": "Artemisia vulgaris",
+      "alt": "Ngải diệp, mugwort",
+      "family": "Asteraceae",
+      "parts": "Leaves, shoots",
+      "origin": "Grows and is cultivated throughout Vietnam.",
+      "trad": "Used in cooking and traditionally as a decoction for menstrual regulation or moxibustion.",
+      "effects": [
+        "kv",
+        "td"
+      ],
+      "compounds": [
+        "cineole"
+      ],
+      "art": "The plant contains essential oils, including cineole and thujone, and flavonoids. Studies of anti-inflammatory and digestive effects remain preclinical.",
+      "safety": "Avoid during pregnancy because it may stimulate the uterus. Thujone is neurotoxic at high doses. People allergic to the daisy family may react.",
+      "studies": []
+    },
+    {
+      "id": "artemisia-annua",
+      "name": "Sweet wormwood",
+      "sci": "Artemisia annua",
+      "alt": "Thanh hao, sweet wormwood",
+      "family": "Asteraceae",
+      "parts": "Aerial parts",
+      "origin": "Grows wild in northern Vietnam and is cultivated for artemisinin extraction.",
+      "trad": "Traditionally used for fever and mentioned in traditional accounts of malaria.",
+      "effects": [
+        "kk",
+        "ha"
+      ],
+      "compounds": [
+        "artemisinin"
+      ],
+      "art": "Artemisinin, isolated from this plant, is the basis of modern antimalarial medicines and brought Tu Youyou the 2015 Nobel Prize in Physiology or Medicine. This is a clear example of a medicinal-plant compound with clinical evidence.",
+      "safety": "Do not use sweet-wormwood tea alone to treat malaria. Artemisinin medicines must be used according to a medical regimen.",
+      "studies": []
+    },
+    {
+      "id": "lactuca-indica",
+      "name": "Indian lettuce",
+      "sci": "Lactuca indica",
+      "alt": "Diếp dại, Indian lettuce",
+      "family": "Asteraceae",
+      "parts": "Leaves, whole plant",
+      "origin": "Grows wild throughout Vietnam.",
+      "trad": "Traditionally applied to boils, breast swelling, or detoxification.",
+      "effects": [
+        "kv",
+        "kk"
+      ],
+      "compounds": [
+        "lactucin",
+        "luteolin"
+      ],
+      "art": "Vietnamese bồ công anh (Lactuca indica) differs from European dandelion (Taraxacum). The plant contains flavonoids and sesquiterpene lactones and is studied for anti-inflammatory and antibacterial activity in vitro.",
+      "safety": "People allergic to the daisy family may react. Pregnancy safety data are insufficient.",
+      "studies": []
+    },
+    {
+      "id": "morinda-officinalis",
+      "name": "Morinda root",
+      "sci": "Morinda officinalis",
+      "alt": "Ba kích thiên",
+      "family": "Rubiaceae",
+      "parts": "Roots",
+      "origin": "Grows in mountainous areas of northern Vietnam and southern China.",
+      "trad": "Traditionally steeped in alcohol as a restorative and used for lower-back and knee aches.",
+      "effects": [
+        "tl"
+      ],
+      "compounds": [
+        "monotropein",
+        "anthraquinone"
+      ],
+      "art": "The roots contain iridoids such as monotropein and anthraquinones. Studies of joint and adaptogenic effects are mainly in animals.",
+      "safety": "Long-term human safety data are insufficient. Avoid during pregnancy.",
+      "studies": []
+    },
+    {
+      "id": "ocimum-gratissimum",
+      "name": "Clove basil",
+      "sci": "Ocimum gratissimum",
+      "alt": "Hương nhu trắng, clove basil",
+      "family": "Lamiaceae",
+      "parts": "Leaves, shoots",
+      "origin": "Grows wild and is cultivated in Vietnam.",
+      "trad": "Traditionally used in hair-washing preparations and steam inhalation for colds.",
+      "effects": [
+        "kk",
+        "ho"
+      ],
+      "compounds": [
+        "eugenol"
+      ],
+      "art": "The essential oil contains eugenol, which has antibacterial and antifungal activity in vitro.",
+      "safety": "Pure eugenol may irritate mucous membranes and skin. Use caution with essential oils during pregnancy.",
+      "studies": []
+    },
+    {
+      "id": "sphagneticola-calendulacea",
+      "name": "Wedelia",
+      "sci": "Sphagneticola calendulacea",
+      "alt": "Wedelia, cúc nhám",
+      "family": "Asteraceae",
+      "parts": "Whole plant",
+      "origin": "Grows wild in damp areas of Vietnam.",
+      "trad": "Traditionally prepared as a drink or bath for prickly heat or skin boils in children.",
+      "effects": [
+        "kv",
+        "da"
+      ],
+      "compounds": [
+        "wedelolactone",
+        "luteolin"
+      ],
+      "art": "The plant contains wedelolactone and luteolin, two compounds studied for anti-inflammatory activity. It is commonly used in folk practice for mild inflammatory skin conditions.",
+      "safety": "People allergic to the daisy family may react. Do not use instead of medical care for severe skin infection.",
+      "studies": []
+    },
+    {
+      "id": "eclipta-prostrata",
+      "name": "False daisy",
+      "sci": "Eclipta prostrata",
+      "alt": "Nhọ nồi",
+      "family": "Asteraceae",
+      "parts": "Whole plant",
+      "origin": "Grows wild along fields and ditches throughout Vietnam.",
+      "trad": "Traditionally used for bleeding, cooling the liver, and hair care.",
+      "effects": [
+        "gan",
+        "da"
+      ],
+      "compounds": [
+        "wedelolactone"
+      ],
+      "art": "Wedelolactone is a notable coumestan in false daisy and has been studied for liver-protective and anti-inflammatory effects in animal models.",
+      "safety": "Human safety data are limited. Use caution during pregnancy.",
+      "studies": []
+    },
+    {
+      "id": "piper-lolot",
+      "name": "Lolot leaf",
+      "sci": "Piper lolot",
+      "alt": "Lốt",
+      "family": "Piperaceae",
+      "parts": "Leaves",
+      "origin": "Grows and is cultivated in humid areas of Southeast Asia; common in Vietnam.",
+      "trad": "Eaten with meat; traditionally used for joint aches and numb legs.",
+      "effects": [
+        "kv",
+        "td"
+      ],
+      "compounds": [
+        "piperamide"
+      ],
+      "art": "The leaves contain piperamide alkaloids and essential oils. Studies of anti-inflammatory and analgesic effects are mainly experimental.",
+      "safety": "Safety data for pregnancy and high-dose extracts are insufficient.",
+      "studies": []
+    },
+    {
+      "id": "piper-betle",
+      "name": "Betel leaf",
+      "sci": "Piper betle",
+      "alt": "Trầu",
+      "family": "Piperaceae",
+      "parts": "Leaves",
+      "origin": "Widely cultivated in Vietnam.",
+      "trad": "Traditionally chewed and prepared as a wash for wounds or mouth rinsing.",
+      "effects": [
+        "kk",
+        "da"
+      ],
+      "compounds": [
+        "hydroxychavicol"
+      ],
+      "art": "Hydroxychavicol is a major phenol in betel leaves and has antibacterial and antifungal activity in vitro.",
+      "safety": "Chewing betel with areca nut and lime is associated with oral-cancer risk according to IARC classification.",
+      "studies": []
+    },
+    {
+      "id": "leonurus-japonicus",
+      "name": "Chinese motherwort",
+      "sci": "Leonurus japonicus",
+      "alt": "Sung úy, motherwort",
+      "family": "Lamiaceae",
+      "parts": "Aerial parts",
+      "origin": "Grows wild throughout Vietnam.",
+      "trad": "Traditionally used for menstrual regulation and postpartum support.",
+      "effects": [
+        "tm"
+      ],
+      "compounds": [
+        "leonurine"
+      ],
+      "art": "Leonurine is a characteristic alkaloid studied for effects on blood vessels and uterine contractions in experimental models.",
+      "safety": "Do not use during pregnancy because it may stimulate uterine contractions.",
+      "studies": []
+    },
+    {
+      "id": "aloe-vera",
+      "name": "Aloe vera",
+      "sci": "Aloe vera",
+      "alt": "Nha đam",
+      "family": "Asphodelaceae",
+      "parts": "Leaf gel, latex",
+      "origin": "Native to the Arabian Peninsula and widely cultivated in Vietnam.",
+      "trad": "Gel is traditionally applied to minor burns; leaf latex is used as a laxative.",
+      "effects": [
+        "da",
+        "td"
+      ],
+      "compounds": [
+        "acemannan",
+        "aloin"
+      ],
+      "art": "The clear leaf gel (acemannan) and yellow latex near the rind (aloin) are distinct parts used for different purposes. Gel is used topically for minor burns, while latex has laxative effects.",
+      "safety": "Yellow latex contains aloin, which causes diarrhea; avoid during pregnancy. Do not ingest gel that has not been separated from the latex.",
+      "studies": []
+    },
+    {
+      "id": "cleistocalyx-operculatus",
+      "name": "Cleistocalyx",
+      "sci": "Cleistocalyx operculatus",
+      "alt": "Cây vối, vối nụ",
+      "family": "Myrtaceae",
+      "parts": "Buds, leaves",
+      "origin": "Cultivated in Vietnam, especially in the north.",
+      "trad": "Traditionally prepared as a refreshing drink for cooling and digestion.",
+      "effects": [
+        "cm",
+        "ha"
+      ],
+      "compounds": [
+        "cardamonin"
+      ],
+      "art": "The buds contain chalcones such as cardamonin. Initial studies of blood lipids and glucose are mainly in animals.",
+      "safety": "Long-term safety data are limited. Use caution with blood-glucose-lowering medicines.",
+      "studies": []
+    },
+    {
+      "id": "plantago-major",
+      "name": "Broadleaf plantain",
+      "sci": "Plantago major",
+      "alt": "Xa tiền thảo, plantain",
+      "family": "Plantaginaceae",
+      "parts": "Leaves, seeds",
+      "origin": "Grows wild throughout Vietnam.",
+      "trad": "Traditionally used to increase urination, soothe cough, or apply to wounds.",
+      "effects": [
+        "ho",
+        "lt",
+        "kv"
+      ],
+      "compounds": [
+        "aucubin"
+      ],
+      "art": "The leaves contain aucubin and plantamajoside, studied for anti-inflammatory activity. Distinguish broadleaf plantain (Plantago major) from psyllium husk (Plantago ovata), used as a laxative.",
+      "safety": "Pregnancy safety data are insufficient. People allergic to grass pollen may react.",
+      "studies": []
+    },
+    {
+      "id": "zea-mays-silk",
+      "name": "Corn silk",
+      "sci": "Zea mays (râu bắp)",
+      "alt": "Ngọc mễ tu, corn silk",
+      "family": "Poaceae",
+      "parts": "Corn silk (styles)",
+      "origin": "A by-product of corn grown throughout Vietnam.",
+      "trad": "Traditionally prepared as a drink to increase urination or for urinary stones.",
+      "effects": [
+        "lt"
+      ],
+      "compounds": [
+        "maysin"
+      ],
+      "art": "Corn silk contains flavonoids such as maysin. Diuretic use is common in folk practice, but clinical data are very limited.",
+      "safety": "Long-term use with diuretics may lower potassium. Use caution with blood-glucose- or blood-pressure-lowering medicines.",
+      "studies": []
+    },
+    {
+      "id": "desmodium-styracifolium",
+      "name": "Desmodium styracifolium",
+      "sci": "Desmodium styracifolium",
+      "alt": "Đồng tiền lông",
+      "family": "Fabaceae",
+      "parts": "Aerial parts",
+      "origin": "Grows in hilly areas of Vietnam and southern China.",
+      "trad": "Traditionally used for urinary stones or painful urination.",
+      "effects": [
+        "lt"
+      ],
+      "compounds": [
+        "fcg"
+      ],
+      "art": "The plant contains flavonoid C-glycosides and is included in some products for urinary stones. Small clinical studies have been reported.",
+      "safety": "Do not self-treat renal colic or blood in urine; seek medical care. Use caution during pregnancy.",
+      "studies": []
+    },
+    {
+      "id": "ampelopsis-cantoniensis",
+      "name": "Ampelopsis tea vine",
+      "sci": "Ampelopsis cantoniensis",
+      "alt": "Chè dây, Ampelopsis grossedentata, Nekemias grossedentata",
+      "family": "Vitaceae",
+      "parts": "Leaves, shoots",
+      "origin": "Grows in mountainous areas of northern Vietnam and southern China.",
+      "trad": "Traditionally prepared as a drink for stomach complaints and cooling.",
+      "effects": [
+        "td",
+        "gan",
+        "ox"
+      ],
+      "compounds": [
+        "dhm"
+      ],
+      "art": "The leaves are rich in dihydromyricetin, studied for antioxidant activity and liver protection. Human data are limited.",
+      "safety": "Pregnancy safety data are insufficient.",
+      "studies": []
+    },
+    {
+      "id": "momordica-cochinchinensis",
+      "name": "Gac",
+      "sci": "Momordica cochinchinensis",
+      "alt": "Mộc miết",
+      "family": "Cucurbitaceae",
+      "parts": "Seed aril, seeds",
+      "origin": "Cultivated in Vietnam and Southeast Asia.",
+      "trad": "Used in sticky rice dishes and traditionally for eye health.",
+      "effects": [
+        "ox"
+      ],
+      "compounds": [
+        "lycopene"
+      ],
+      "art": "Gac aril is among the plant foods richest in lycopene and beta-carotene. These are antioxidant carotenoids; specific health benefits in humans need further study.",
+      "safety": "Gac seeds (mộc miết tử) are toxic in traditional medicine and should not be eaten.",
+      "studies": []
+    },
+    {
+      "id": "chrysanthemum-morifolium",
+      "name": "Chrysanthemum",
+      "sci": "Chrysanthemum morifolium",
+      "alt": "Hoa cúc vàng",
+      "family": "Asteraceae",
+      "parts": "Flowers",
+      "origin": "Native to East Asia and cultivated in Vietnam.",
+      "trad": "Traditionally steeped as tea for cooling, eye comfort, or headache.",
+      "effects": [
+        "ha",
+        "kv"
+      ],
+      "compounds": [
+        "luteolin",
+        "apigenin"
+      ],
+      "art": "The flowers contain luteolin and apigenin, two flavones studied for antioxidant and anti-inflammatory activity.",
+      "safety": "People allergic to the daisy family may react.",
+      "studies": []
+    },
+    {
+      "id": "panax-notoginseng",
+      "name": "Notoginseng",
+      "sci": "Panax notoginseng",
+      "alt": "Sâm tam thất",
+      "family": "Araliaceae",
+      "parts": "Tubers, flowers",
+      "origin": "Native to Yunnan and cultivated in high-altitude areas of northern Vietnam.",
+      "trad": "Traditionally used for bleeding, bruising, and recovery after injury or childbirth.",
+      "effects": [
+        "tm",
+        "da"
+      ],
+      "compounds": [
+        "notoginsenoside"
+      ],
+      "art": "Notoginseng contains dammarane saponins such as notoginsenoside R1. It has long been used in traditional medicine for bleeding and bruising; cardiovascular studies vary in quality.",
+      "safety": "May interact with anticoagulant medicines. Use caution during pregnancy.",
+      "studies": []
+    },
+    {
+      "id": "cinnamomum-cassia",
+      "name": "Cassia cinnamon",
+      "sci": "Cinnamomum cassia",
+      "alt": "Quế bì",
+      "family": "Lauraceae",
+      "parts": "Stem bark",
+      "origin": "Cultivated in several mountainous provinces of Vietnam.",
+      "trad": "Used as a seasoning and traditionally for abdominal coldness or bloating.",
+      "effects": [
+        "cm",
+        "td",
+        "kk"
+      ],
+      "compounds": [
+        "cinnamaldehyde"
+      ],
+      "art": "Cinnamaldehyde gives cinnamon its characteristic aroma and has antibacterial activity in vitro. A few small trials suggest a possible mild effect on blood glucose, but results are inconsistent.",
+      "safety": "Cassia cinnamon contains coumarin; high intake over long periods may affect the liver.",
+      "studies": []
+    },
+    {
+      "id": "illicium-verum",
+      "name": "Star anise",
+      "sci": "Illicium verum",
+      "alt": "Đại hồi, star anise",
+      "family": "Schisandraceae",
+      "parts": "Fruit",
+      "origin": "Cultivated mainly in Vietnam’s northern border provinces.",
+      "trad": "Used as a seasoning and traditionally for bloating or cough.",
+      "effects": [
+        "td",
+        "ho"
+      ],
+      "compounds": [
+        "anethole"
+      ],
+      "art": "Star anise contains anethole, which provides its aroma. It is also a source of shikimic acid used to manufacture the influenza medicine oseltamivir.",
+      "safety": "Do not confuse star anise with toxic Japanese star anise (Illicium anisatum). Do not give star-anise tea to infants.",
+      "studies": []
+    },
+    {
+      "id": "piper-nigrum",
+      "name": "Black pepper",
+      "sci": "Piper nigrum",
+      "alt": "Hồ tiêu, black pepper",
+      "family": "Piperaceae",
+      "parts": "Fruit",
+      "origin": "Widely cultivated in the Central Highlands and southeastern Vietnam.",
+      "trad": "Used as a seasoning and traditionally for abdominal coldness or cough.",
+      "effects": [
+        "td"
+      ],
+      "compounds": [
+        "piperine"
+      ],
+      "art": "Piperine gives black pepper its pungency and may increase absorption of other substances, such as curcumin, by inhibiting drug-metabolizing enzymes.",
+      "safety": "Piperine may increase blood levels of some medicines. Use caution with drugs that have a narrow therapeutic range.",
+      "studies": []
+    },
+    {
+      "id": "portulaca-oleracea",
+      "name": "Common purslane",
+      "sci": "Portulaca oleracea",
+      "alt": "Mã xỉ hiện",
+      "family": "Portulacaceae",
+      "parts": "Whole plant",
+      "origin": "Grows wild throughout Vietnam.",
+      "trad": "Eaten as a food; traditionally used for dysentery, skin boils, or cooling.",
+      "effects": [
+        "kv"
+      ],
+      "compounds": [
+        "ala"
+      ],
+      "art": "Purslane is a leafy green rich in alpha-linolenic acid (omega-3) compared with many vegetables, and also contains flavonoids. Anti-inflammatory research is in cell and animal models.",
+      "safety": "Contains oxalate; use caution with calcium oxalate kidney stones. Use caution during pregnancy.",
+      "studies": []
+    },
+    {
+      "id": "camellia-sinensis",
+      "name": "Green tea",
+      "sci": "Camellia sinensis",
+      "alt": "Chè xanh, green tea",
+      "family": "Theaceae",
+      "parts": "Leaves, buds",
+      "origin": "Widely cultivated in Thái Nguyên, Lâm Đồng, and Hà Giang.",
+      "trad": "Traditionally consumed as a daily infusion.",
+      "effects": [
+        "ox",
+        "tm"
+      ],
+      "compounds": [
+        "egcg"
+      ],
+      "art": "EGCG is the main catechin in green tea and is widely studied for antioxidant activity. Human findings on cardiovascular effects and weight loss are small and inconsistent.",
+      "safety": "Contains caffeine. High-dose EGCG extracts have been linked to rare liver injury. Drinking tea with meals can reduce iron absorption.",
+      "studies": []
+    },
+    {
+      "id": "syzygium-aromaticum",
+      "name": "Clove",
+      "sci": "Syzygium aromaticum",
+      "alt": "Clove",
+      "family": "Myrtaceae",
+      "parts": "Flower buds",
+      "origin": "Native to Indonesia; the medicinal material is mainly imported.",
+      "trad": "Traditionally used for toothache and abdominal coldness.",
+      "effects": [
+        "kk"
+      ],
+      "compounds": [
+        "eugenol"
+      ],
+      "art": "Clove essential oil contains 70-90% eugenol, used in dentistry as an analgesic and antiseptic.",
+      "safety": "Eugenol may irritate mucous membranes and cause liver toxicity at high doses, especially in children. Do not swallow undiluted essential oil.",
+      "studies": []
+    }
+  ]
 }
