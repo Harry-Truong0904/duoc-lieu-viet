@@ -1,0 +1,32 @@
+name: Check project
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate data files
+        run: node tools/validate.js
+
+      - name: Check JSON syntax
+        run: |
+          for f in data/*.json i18n/*.json; do
+            node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || { echo "Invalid JSON: $f"; exit 1; }
+          done
+
+      - name: No absolute paths (breaks on GitHub Pages)
+        run: |
+          if grep -nE "fetch\(['\"]/|(src|href)=\"/[^/]" index.html js/*.js; then
+            echo "Use relative paths such as data/vi.json, not /data/vi.json"
+            exit 1
+          fi
